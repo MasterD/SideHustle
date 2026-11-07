@@ -1,0 +1,25 @@
+{
+  "validated_at_utc": "2026-10-21T07:04:00.022Z",
+  "method": "JSON.parse saved status, ledger and results; assert approved state and checked dates; fs.access each referenced evidence file",
+  "records": [
+    "status.json",
+    "marketing/campaign-ledger.json",
+    "marketing/checks/2026-10-21/results.json"
+  ],
+  "assertions": {
+    "approved_price_preserved": true,
+    "free_creator_test_separate": true,
+    "genuine_sales_zero": true,
+    "seven_public_placements_preserved": true,
+    "all_eight_entries_checked": true,
+    "no_order_or_spend": true,
+    "unknown_buyer_metrics_preserved": true,
+    "no_pending_publication": true,
+    "no_publication": true,
+    "holds_preserved": true
+  },
+  "passed_assertions": 10,
+  "failed_assertions": 0,
+  "evidence_files_found": 11,
+  "result": "passed"
+}

@@ -1,0 +1,19 @@
+{
+  "campaign": "timingtip20261008",
+  "prepared_date": "2026-10-08",
+  "channel": "Facebook public Page",
+  "page_id": "61594786357864",
+  "copy": "Captions start in sync but drift out later? Check three points before shifting the whole subtitle file.\n\n• Same delay at the start, middle and end: a constant offset may help. If every cue is 1.5 seconds late, shift by −1.5 seconds, then review.\n\n• Delay grows as the video plays: one constant offset will not fix the drift. Check that the subtitles match the video version and timing.\n\n• A sudden jump after a cut: check that edit before moving every cue.\n\nKeep the original file and spot-check the export against your video.\n\nCaption Cleanup Kit is my offline tool for existing SRT/VTT files. It applies a constant timing offset and can convert subtitle formats or export transcripts. US$9 once, with a quick-start guide and samples. It does not transcribe audio or automatically repair timing drift.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook&utm_medium=social&utm_campaign=timingtip20261008",
+  "rationale": "An original worked timing example for editors, distinct from the launch feature list. Helps buyers identify when a constant offset is suitable and accurately explains the product limitation.",
+  "rolling_limit_check": {
+    "previous_original_post_date": "2026-09-30",
+    "new_posts_in_previous_7_days": 0,
+    "allowed_original_posts_per_7_days": 1
+  },
+  "rules_check": {
+    "date": "2026-10-08",
+    "url": "https://transparency.meta.com/policies/community-standards/spam/",
+    "facts": "Current policy forbids very high frequency or repetitive posting, deceptive links and engagement manipulation. This single new educational Page post identifies the product affiliation, uses the real product destination and requests no engagement."
+  },
+  "price_usd": 9
+}

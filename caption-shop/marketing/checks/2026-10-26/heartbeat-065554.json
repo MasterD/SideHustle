@@ -1,0 +1,28 @@
+{
+  "automation_id": "caption-shop-daily-check",
+  "trigger_at_utc": "2026-10-26T06:55:54.439Z",
+  "reviewed_at_utc": "2026-10-26T06:57:51.980Z",
+  "execution": "scheduled_heartbeat",
+  "outcome": "duplicate_trigger_recent_daily_check_reused",
+  "source_run_record": "marketing/checks/2026-10-26/results.json",
+  "source_completed_at_utc": "2026-10-26T05:36:08.853Z",
+  "fresh_live_check_performed": false,
+  "fresh_live_metrics_observed": false,
+  "reason": "A complete validated daily check finished earlier today. No pending publication verification or other new task input. Reuse the existing daily evidence without generating additional QA traffic or repeating promotional posts.",
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "additional_qa_listing_visits": 0,
+  "additional_qa_checkout_openings": 0,
+  "metrics_changed": false,
+  "placement_checks_redated": false,
+  "validation": {
+    "source_json_parsed": true,
+    "source_evidence_files_found": 11,
+    "source_checks": 13
+  },
+  "notification": {
+    "decision": "DONT_NOTIFY",
+    "reason": "Recent daily check already complete; no new actionable input or required owner action."
+  }
+}

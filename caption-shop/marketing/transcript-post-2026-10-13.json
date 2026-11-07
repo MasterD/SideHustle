@@ -1,0 +1,19 @@
+{
+  "campaign": "transcripts20261013",
+  "prepared_date": "2026-10-13",
+  "channel": "LinkedIn public post",
+  "copy": "Course creators: an existing subtitle file can also be a useful starting point for lesson notes.\n\nChoose the export for the job:\n\n• Plain transcript: text to edit into reading notes.\n• Timed transcript: text with timestamps so you can find a passage in the lesson.\n• CSV cue sheet: a table for reviewing individual cues and timings.\n\nKeep the original SRT/VTT for video playback. Review the words against the lesson and edit the transcript before sharing it; converting a file does not check accuracy or turn it into finished notes.\n\nI’m the seller of Caption Cleanup Kit. It exports these formats from existing UTF-8 SRT/VTT files in an offline desktop-browser workspace. US$9 once, including a quick-start guide and samples. No subtitle uploads or subscription. It does not transcribe audio or translate speech.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=transcripts20261013\n\n#CourseCreation #Subtitles",
+  "price_usd": 9,
+  "claims_source": "listing-draft.json",
+  "rationale": "A new practical lesson-notes use case for course creators and educators, with clear distinctions between transcript and subtitle outputs and a review step; distinct from the launch feature list and Facebook timing tip.",
+  "rolling_limit_check": {
+    "previous_original_post_date": "2026-09-30",
+    "new_posts_in_previous_7_days": 0,
+    "allowed_original_posts_per_7_days": 1
+  },
+  "rules_check": {
+    "date": "2026-10-13",
+    "url": "https://www.linkedin.com/legal/professional-community-policies",
+    "facts": "Current policy requires accurate, professional, original and relevant content, visible personal-benefit disclosure, and prohibits irrelevant/repetitive promotion, promotional invitations and artificial engagement. Copy clearly discloses seller affiliation and provides a relevant workflow lesson."
+  }
+}

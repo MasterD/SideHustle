@@ -1,0 +1,39 @@
+{
+  "campaign": "launch20260930",
+  "price_usd": 9,
+  "spend_limit_zar": 0,
+  "canonical_url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+  "gumroad_post": {
+    "title": "SRT or VTT? A practical subtitle export checklist",
+    "html": "<p>Already have subtitles, but need a different file format, a transcript or a timing fix? Here is a short checklist for the final export step.</p><h2>1. Keep an original copy</h2><p>Work on a duplicate of your existing SRT or WebVTT file. Decide whether the destination needs SRT, VTT, plain text, a timed transcript or a CSV cue sheet. A transcript is useful for reading or notes; a subtitle file keeps the cue timings needed for playback.</p><h2>2. Check what conversion will preserve</h2><p>For example, an SRT cue can look like this:</p><pre>1\n00:00:01,000 --&gt; 00:00:03,000\nWelcome to the lesson.</pre><p>In the kit's simple WebVTT export, the same cue becomes:</p><pre>WEBVTT\n\n00:00:01.000 --&gt; 00:00:03.000\nWelcome to the lesson.</pre><p>Caption Cleanup Kit keeps the cue text and timings, but omits WebVTT notes, styles, regions, cue identifiers and positioning settings. Keep the source if you need those features.</p><h2>3. Fix a constant timing offset carefully</h2><p>If every cue starts one second late, a minus-one-second offset may help. If the mismatch grows as the video plays, a single offset will not fix it. Check the start, middle and end against your media. The kit rejects a shift that would put a cue before zero.</p><h2>4. Review the text and timings</h2><p>Tidy extra spaces and wrap lines where appropriate. Check overlap, cue order, line length and reading speed. The kit flags possible issues for editing; it does not check the words against your media or certify accessibility.</p><h2>5. Review the exported batch</h2><p>Use the review report, spot-check the converted files and test the result in your destination player or editor. Keep your source files alongside the exports.</p><h2>A small tool for this workflow</h2><p>I've launched <strong>Caption Cleanup Kit</strong> for editors, educators and creators working with existing UTF-8 SRT or WebVTT files. Open one self-contained HTML file in a current desktop browser, work offline, and export SRT, VTT, plain transcripts, timed transcripts or CSV cue sheets. Batch export supports up to 100 files, 2 MB per file and 20 MB per batch.</p><p><strong>US$9 once</strong>, with a quick-start guide and sample files. No installation or subscription is needed, and the workspace does not upload your subtitle files. It edits existing captions; it does not transcribe audio or translate speech.</p><p><a href=\"https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=gumroad_post&amp;utm_medium=owned&amp;utm_campaign=launch20260930\">See the toolkit and download details</a></p>"
+  },
+  "linkedin": "Already have captions, but still need a different subtitle format, a transcript or a timing adjustment?\n\nI've launched Caption Cleanup Kit for that final step of a video workflow. Open a self-contained HTML file in a current desktop browser and work offline with existing SRT or WebVTT subtitles.\n\n• Convert SRT ↔ VTT\n• Export plain or timed transcripts and CSV cue sheets\n• Tidy spaces, wrap lines and shift timings\n• Export batches of up to 100 files as a ZIP with a review report\n\nUS$9 once. No installation, subscription or subtitle uploads. Includes a quick-start guide and samples. It edits existing captions; it does not transcribe audio or translate speech.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=launch20260930\n\n#VideoEditing #Subtitles #ContentCreation",
+  "facebook": "For video editors, course creators and educators who already have SRT or VTT captions: I've launched a small offline subtitle toolkit.\n\nCaption Cleanup Kit converts SRT/VTT, exports plain or timed transcripts and CSV cue sheets, tidies text, adjusts timing offsets and exports batches as ZIPs with a review report. Open its HTML file in a current desktop browser; no installation, subscription or subtitle uploads.\n\nUS$9 once, including a quick-start guide and samples. This is my product. It edits existing subtitles; it does not transcribe audio.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook&utm_medium=social&utm_campaign=launch20260930",
+  "x": "I've launched Caption Cleanup Kit: an offline tool for existing SRT/VTT files. Convert subtitles, tidy text, shift timings, export transcripts or batch ZIPs. US$9 once. No subtitle uploads.\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+  "reddit": {
+    "title": "I built an offline SRT/VTT toolkit for the final caption export step",
+    "body": "I made Caption Cleanup Kit for a narrow workflow: you already have subtitle files, but need another format, cleaner text, a timing offset or transcripts.\n\nIt is a self-contained HTML file that runs in a current desktop browser. It converts SRT ↔ VTT, exports plain/timed transcripts or CSV cue sheets, tidies spaces, wraps lines and applies a timing offset. Batch export handles up to 100 files (2 MB each, 20 MB total) and includes a review report. Subtitle files stay on your device.\n\nA few deliberate limits: it doesn't transcribe audio, translate speech or check words against the video. WebVTT notes, styles, regions, cue identifiers and positioning settings are omitted. Review flags are prompts for editing, not accessibility certification.\n\nIt is US$9 once and includes a quick-start guide and sample files. I'm the seller.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit\n\nIf this is part of your workflow, which export do you need most: VTT, SRT, transcripts or CSV?"
+  },
+  "directory": {
+    "name": "Caption Cleanup Kit",
+    "tagline": "Offline SRT/VTT conversion, cleanup and batch transcript exports",
+    "description": "Caption Cleanup Kit is a commercial offline subtitle utility delivered as a self-contained HTML file for current desktop browsers. It works with existing UTF-8 SRT and WebVTT files. Features include SRT/VTT conversion, plain and timed transcript exports, CSV cue sheets, text cleanup, word-boundary line wrapping, timing offsets and ZIP batch exports with a review report. Limits are 100 files, 2 MB per file and 20 MB per batch. Files are processed on the user's device. It does not transcribe audio, translate speech or verify captions against media. WebVTT notes, styles, regions, cue identifiers and positioning settings are omitted. Version 1.0 costs US$9 once and includes a guide and sample files.",
+    "license": "Commercial",
+    "tags": [
+      "subtitles",
+      "SRT",
+      "WebVTT",
+      "offline",
+      "batch processing",
+      "transcript",
+      "video editing"
+    ],
+    "website": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit"
+  },
+  "product_hunt": {
+    "name": "Caption Cleanup Kit",
+    "tagline": "Clean and convert existing subtitles offline",
+    "description": "An offline toolkit for existing SRT/VTT subtitles: convert formats, tidy text, shift timings and export transcripts, CSV cue sheets or batch ZIPs with a review report. Open one HTML file in a desktop browser. US$9 once. Does not transcribe audio.",
+    "maker_comment": "I've launched this to handle the final export step after captions already exist. The goal is a small local workflow without uploading subtitle files or subscribing. It converts SRT/VTT, applies timing offsets, tidies text, exports transcripts/CSV and bundles batches as ZIPs. It omits advanced VTT styling and positioning metadata, so keep your source files and review the result. Which part of your subtitle export workflow causes the most repeat work?"
+  }
+}

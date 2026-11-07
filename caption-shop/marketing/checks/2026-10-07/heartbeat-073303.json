@@ -1,0 +1,17 @@
+{
+  "automation_id": "caption-shop-daily-check",
+  "trigger_at_utc": "2026-10-07T07:33:03.608Z",
+  "execution": "reuse_recent_completed_manual_check",
+  "source_record": "marketing/checks/2026-10-07/results.json",
+  "source_completed_at_utc": "2026-10-07T07:32:12.930Z",
+  "source_age_seconds_at_trigger": 50.678,
+  "outcome": "deduplicated_no_notification_trigger",
+  "decision": "DONT_NOTIFY",
+  "new_browser_checks": 0,
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "metrics_reobserved": false,
+  "owner_action_required": false,
+  "reason": "The full owner-requested shop and campaign check finished approximately 51 seconds before this heartbeat. Reused that verified record without treating its metrics as newly observed; no intervening state change is known."
+}

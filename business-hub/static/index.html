@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15223b">
+  <title>Launchpad · Business Hub</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">↗</span> launchpad<span class="brand-dot">.</span></a>
+    <div class="workspace-selector"><label for="company-select">YOUR WORKSPACE</label><select id="company-select" aria-label="Select company"></select></div>
+    <nav id="navigation" aria-label="Main navigation"></nav>
+    <div class="sidebar-bottom">
+      <div class="local-note"><span class="online-dot"></span> Running on your computer<p>Your business, in one place.<br>No connected paid services.</p></div>
+      <button class="workspace-add" id="new-company-button">+ Add a workspace</button>
+      <div class="owner"><span class="avatar">JS</span><div><strong id="sidebar-company">Juniper Studio</strong><small>Owner workspace</small></div></div>
+    </div>
+  </aside>
+  <div class="application-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menu-button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb-title">Overview</strong></div>
+      <div class="topbar-actions"><span class="demo-badge"><span></span> LOCAL DEMO</span><a class="button button-small button-quiet" id="public-site-link" href="/site/juniper-studio" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a></div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <div class="page-heading"><div><div class="eyebrow" id="page-eyebrow">YOUR BUSINESS AT A GLANCE</div><h1 id="page-title">A little clarity. A lot of possibility.</h1><p id="page-description">The next chapter of your business starts here.</p></div><div id="page-actions"></div></div>
+      <div id="page-content"><div class="loading-card">Opening your workspace…</div></div>
+      <footer class="app-footer"><span>Built to grow with your business.</span><span>Demo data · Local website · Social posts are prepared only</span></footer>
+    </main>
+  </div>
+  <dialog id="form-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><div><span class="eyebrow" id="dialog-eyebrow">WORKSPACE</span><h2 id="dialog-title"></h2></div><button class="icon-button" id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

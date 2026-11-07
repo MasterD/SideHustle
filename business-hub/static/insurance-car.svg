@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320" role="img" aria-labelledby="car-title car-description">
+  <title id="car-title">A generic white hatchback with a sunroof</title>
+  <desc id="car-description">Original simplified side illustration of a white hatchback. There are no manufacturer badges or logos.</desc>
+  <defs>
+    <linearGradient id="car-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe3ef"/>
+    </linearGradient>
+    <linearGradient id="car-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7285aa"/>
+      <stop offset="1" stop-color="#223654"/>
+    </linearGradient>
+  </defs>
+  <!-- Illustration geometry is authored here; no external artwork is embedded. -->
+  <circle cx="341" cy="155" r="115" fill="#223654"/>
+  <circle cx="493" cy="102" r="39" fill="#315fe7" opacity="0.25"/>
+  <path d="M60 260H561" fill="none" stroke="#7285aa" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 270H178M460 270H532" fill="none" stroke="#315fe7" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="311" cy="253" rx="237" ry="10" fill="#0c172b" opacity="0.65"/>
+  <!-- Lower silhouette and roof line. -->
+  <path d="M83 209L92 173Q94 164 106 159L152 141L184 105Q194 94 216 93L343 93Q365 94 383 111L431 155L509 171Q528 175 536 192L542 214Q544 226 533 232L511 235H116Q90 234 83 219Z" fill="url(#car-body)" stroke="#c3cfdf" stroke-width="2"/>
+  <path d="M156 142L190 110Q197 102 216 102H275V150H154Z" fill="url(#car-glass)"/>
+  <path d="M286 102H341Q359 102 375 118L410 150H286Z" fill="url(#car-glass)"/>
+  <path d="M207 111L185 138H264" fill="none" stroke="#b9c7df" stroke-width="3" opacity="0.45"/>
+  <path d="M298 111H336Q348 111 360 122" fill="none" stroke="#b9c7df" stroke-width="3" opacity="0.4"/>
+  <!-- A slim inset marks the factory-style roof opening. -->
+  <path d="M225 96H317" fill="none" stroke="#223654" stroke-width="5" stroke-linecap="round"/>
+  <path d="M278 154V219M411 154L420 215M156 156L147 207" fill="none" stroke="#b8c6d9" stroke-width="2"/>
+  <path d="M95 183H504" fill="none" stroke="#c9d4e5" stroke-width="2"/>
+  <path d="M170 211H427" fill="none" stroke="#b8c6d9" stroke-width="2"/>
+  <path d="M95 221H526" fill="none" stroke="#223654" stroke-width="9" stroke-linecap="round"/>
+  <path d="M88 191H104L106 207H86Z" fill="#ff8169"/>
+  <path d="M511 178L528 187L533 202H507Z" fill="#e8eeff" stroke="#b8c6d9" stroke-width="1.5"/>
+  <path d="M531 210H541" fill="none" stroke="#223654" stroke-width="6"/>
+  <path d="M259 164H246M392 164H379" fill="none" stroke="#52627c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M405 147L416 145Q424 146 425 154L412 157Z" fill="#ffffff" stroke="#b8c6d9" stroke-width="1.5"/>
+  <!-- Wheel wells and wheels use simple concentric shapes. -->
+  <path d="M122 229Q123 189 160 188Q198 188 201 229M422 229Q425 190 462 189Q501 189 503 229" fill="#223654"/>
+  <circle cx="161" cy="225" r="33" fill="#101a2c"/>
+  <circle cx="161" cy="225" r="24" fill="#93a4bd"/>
+  <circle cx="161" cy="225" r="18" fill="#223654"/>
+  <path d="M161 208V242M144 225H178M149 213L173 237M149 237L173 213" fill="none" stroke="#dbe3ef" stroke-width="4"/>
+  <circle cx="161" cy="225" r="6" fill="#93a4bd"/>
+  <circle cx="462" cy="225" r="33" fill="#101a2c"/>
+  <circle cx="462" cy="225" r="24" fill="#93a4bd"/>
+  <circle cx="462" cy="225" r="18" fill="#223654"/>
+  <path d="M462 208V242M445 225H479M450 213L474 237M450 237L474 213" fill="none" stroke="#dbe3ef" stroke-width="4"/>
+  <circle cx="462" cy="225" r="6" fill="#93a4bd"/>
+  <!-- Small abstract accents, without a real registration plate or badge. -->
+  <path d="M108 69H146M127 50V88" fill="none" stroke="#ff8169" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="514" cy="143" r="5" fill="#ff8169"/>
+  <path d="M454 72H468" fill="none" stroke="#b9c7df" stroke-width="2" stroke-linecap="round"/>
+</svg>

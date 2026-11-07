@@ -1,0 +1,26 @@
+{
+  "title": "Caption Cleanup Kit — Offline SRT/VTT Batch Converter",
+  "seller_account_email": "tiaanbok@gmail.com",
+  "price_usd": 9,
+  "purchase_type": "one_time_digital_download",
+  "short_description": "Clean subtitle files, adjust timing and export transcripts on your own device. One download, five output formats, no subscription.",
+  "description": "Make the last step of your caption workflow easier. Caption Cleanup Kit is an offline workspace for existing UTF-8 SRT and WebVTT subtitle files.\n\nConvert between SRT and VTT, export plain transcripts, timestamped transcripts or CSV cue sheets, shift timings by a chosen offset, wrap lines at word boundaries and clean extra spaces. Select up to 100 files and export one ZIP with a review report. Limits are 2 MB per file and 20 MB per batch.\n\nYour download contains a self-contained HTML toolkit, a quick-start guide and original SRT/VTT examples. Open the toolkit in a current desktop browser. No installation, workspace account, cloud upload or paid processing API is required.\n\nThe kit edits existing subtitles. It does not transcribe audio, translate speech or check accuracy against media. WebVTT notes, style/region blocks, cue identifiers and positioning settings are omitted. Review your exports before publishing. Readability flags are editing prompts, not accessibility certification.\n\nOne purchaser may use version 1.0 for personal and commercial caption projects, including client work. You may share your own exports when you have the necessary rights. You may not redistribute or resell the toolkit itself. The purchase does not promise custom work, future updates or a support subscription.\n\nFor help or refund requests, use the seller contact on your Gumroad receipt. Applicable consumer rights are preserved.",
+  "customer_download": "dist/Caption-Cleanup-Kit-v1.zip",
+  "product_screenshot": "tool-preview.png",
+  "tags": [
+    "subtitles",
+    "srt",
+    "webvtt",
+    "offline tools",
+    "video editing",
+    "transcript",
+    "batch converter"
+  ],
+  "publication_status": "published",
+  "note": "Published on 30 September 2026 at the approved US$9 base price. The free creator test and exact customer ZIP download passed. No genuine sale or paid purchase occurred.",
+  "product_id": "tzihvm",
+  "public_url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+  "cover_image": "gumroad-cover.png",
+  "thumbnail_image": "gumroad-thumbnail.png",
+  "category": "Software Development > Software & Plugins"
+}

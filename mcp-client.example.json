@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sidehustle-monitor": {
+      "command": "C:\\Users\\tiaan.botha\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "args": ["C:\\Development\\Personal\\SideHustle\\dashboard\\mcp_server.py"]
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-23",
+  "trigger_at_utc": "2026-10-23T06:58:41.319Z",
+  "started_at_utc": "2026-10-23T07:00:48.459Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad approved product",
+      "url": "https://gumroad.com/products",
+      "product_id": "tzihvm",
+      "published": true,
+      "base_price_usd": 9,
+      "genuine_sales": 0,
+      "revenue_usd": 0,
+      "evidence": "products.png"
+    },
+    {
+      "channel": "Gumroad aggregate analytics",
+      "url": "https://gumroad.com/dashboard/sales?from=2026-09-23&to=2026-10-23",
+      "date_range": {
+        "from": "2026-09-23",
+        "to": "2026-10-23"
+      },
+      "raw_views": 16,
+      "sales": 0,
+      "revenue_usd": 0,
+      "referrers": [
+        {
+          "source": "Direct, email, IM",
+          "views": 6,
+          "sales": 0
+        },
+        {
+          "source": "linkedin.com",
+          "views": 2,
+          "sales": 0
+        },
+        {
+          "source": "m.facebook.com",
+          "views": 8,
+          "sales": 0
+        }
+      ],
+      "buyer_page_visits": null,
+      "campaign_attributed_sales": null,
+      "measurement_note": "Observed before today listing QA. Owner, QA and preview traffic cannot be isolated; no relevant buyer count inferred.",
+      "evidence": "gumroad-analytics.png"
+    },
+    {
+      "channel": "Public listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "for_sale": true,
+      "display_price_zar": 148.6,
+      "approved_base_price_usd": 9,
+      "claims_match_existing_offline_srt_vtt": true,
+      "evidence": "listing.png"
+    },
+    {
+      "channel": "Checkout",
+      "url": "https://gumroad.com/checkout?product=tzihvm&quantity=1",
+      "opened": true,
+      "product_id": "tzihvm",
+      "quantity": 1,
+      "total_display_zar": 150,
+      "pay_button_present": true,
+      "pay_button_enabled": true,
+      "creator_test_notice": true,
+      "recaptcha_connection_notice_present": false,
+      "payment_completion_tested": false,
+      "order_placed": false,
+      "evidence": "checkout.png",
+      "qa_cart_removed": true
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "content_verified": true,
+      "comments": 0,
+      "inbound_questions": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7510987455580319744/",
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "impressions": 90,
+      "members_reached": 57,
+      "link_engagements": 1,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "inbound_questions": 0,
+      "evidence": "linkedin-launch-analytics.png"
+    },
+    {
+      "channel": "LinkedIn public transcript workflow post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515671218566496258/",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7515671219749408768/",
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "impressions": 26,
+      "members_reached": 13,
+      "profile_viewers_from_post": 1,
+      "link_engagements": null,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "inbound_questions": 0,
+      "evidence": "linkedin-transcript-analytics.png",
+      "measurement_note": "No link engagement metric displayed; preserve unknown."
+    },
+    {
+      "channel": "Facebook existing Page",
+      "url": "https://www.facebook.com/profile.php?id=61594786357864",
+      "page_id": "61594786357864",
+      "identity_verified": true,
+      "duplicate_page_created": false,
+      "personal_profile_changed": false,
+      "notification_unread_badge_present": false
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "views": 32,
+      "viewers": 8,
+      "impressions": 12,
+      "published_display": "Sep 30 at 1:41 PM",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "source": "native Facebook Content Library Published table",
+      "source_url": "https://www.facebook.com/professional_dashboard/content/content_library/",
+      "page_id": "61594786357864",
+      "published_status_verified": true,
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "engagements": 1,
+      "comments": 0,
+      "inbound_questions": 0,
+      "link_clicks": null,
+      "buyer_visits": null,
+      "known_publication_qa_outbound_visits": 1,
+      "raw_platform_metrics": true,
+      "evidence": "facebook-content-library.png",
+      "text_evidence": "facebook-content-library.txt",
+      "measurement_note": "Raw metrics include owner/QA activity. The current table reports total engagement, not a link-click breakdown; buyer visits and current link clicks remain unknown."
+    },
+    {
+      "channel": "Facebook public Page timing tip",
+      "views": 12,
+      "viewers": 2,
+      "impressions": 4,
+      "published_display": "Oct 8 at 9:10 AM",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "source": "native Facebook Content Library Published table",
+      "source_url": "https://www.facebook.com/professional_dashboard/content/content_library/",
+      "page_id": "61594786357864",
+      "published_status_verified": true,
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "engagements": 1,
+      "comments": 0,
+      "inbound_questions": 0,
+      "link_clicks": null,
+      "buyer_visits": null,
+      "known_publication_qa_outbound_visits": 1,
+      "raw_platform_metrics": true,
+      "evidence": "facebook-content-library.png",
+      "text_evidence": "facebook-content-library.txt",
+      "measurement_note": "Raw metrics include owner/QA activity. The current table reports total engagement, not a link-click breakdown; buyer visits and current link clicks remain unknown."
+    },
+    {
+      "channel": "Facebook public Page batch-check tip",
+      "views": 2,
+      "viewers": 1,
+      "impressions": 1,
+      "published_display": "Oct 16 at 9:27 AM",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02D7xwnmHTSyw4F4SYyB3eHPos9yrjkdBPi7f66CeNBj7ZPCLEmLFH8ZCY777bh9PQl&id=61594786357864",
+      "source": "native Facebook Content Library Published table",
+      "source_url": "https://www.facebook.com/professional_dashboard/content/content_library/",
+      "page_id": "61594786357864",
+      "published_status_verified": true,
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "engagements": 1,
+      "comments": 0,
+      "inbound_questions": 0,
+      "link_clicks": null,
+      "buyer_visits": null,
+      "known_publication_qa_outbound_visits": 1,
+      "raw_platform_metrics": true,
+      "evidence": "facebook-content-library.png",
+      "text_evidence": "facebook-content-library.txt",
+      "measurement_note": "Raw metrics include owner/QA activity. The current table reports total engagement, not a link-click breakdown; buyer visits and current link clicks remain unknown."
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "content_verified": true,
+      "artwork_alt_verified": true,
+      "views": 18,
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "inbound_questions": 0,
+      "buyer_visits": null,
+      "raw_platform_metrics": true,
+      "evidence": "x-launch.png",
+      "measurement_note": "Raw views may include QA. New-account discoverability remains unverified."
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "content_verified": true,
+      "filtered": true,
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "inbound_questions": 0,
+      "review_subject": "Review request: filtered offline subtitle toolkit launch",
+      "review_requested_date": "2026-09-30",
+      "moderator_review_status": "pending_no_response",
+      "moderator_response": false,
+      "thread_replies": 0,
+      "moderator_review_requests": 1,
+      "new_messages_sent": 0,
+      "additional_promotion": false,
+      "duplicate_appeal_sent": false,
+      "evidence": "reddit-review.png",
+      "text_evidence": "reddit-review.txt"
+    }
+  ],
+  "publications": [],
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "previous_partial_run": {
+    "date": "2026-10-22",
+    "record": "marketing/checks/2026-10-22/partial-results.json",
+    "completion_claimed": false
+  },
+  "completed_at_utc": "2026-10-23T07:07:32.285Z",
+  "outcome": "completed_no_actionable_change",
+  "genuine_sales": 0,
+  "revenue_usd": 0,
+  "free_creator_tests_excluded": 1,
+  "buyer_page_visits": null,
+  "campaign_attributed_sales": null,
+  "qa_activity": {
+    "public_listing_visits": 1,
+    "checkout_openings": 1,
+    "qa_cart_removed": true,
+    "orders_placed": 0,
+    "outbound_social_product_clicks": 0
+  },
+  "demand_review": {
+    "days_since_launch": 23,
+    "day_threshold": 30,
+    "relevant_buyer_visit_threshold": 100,
+    "relevant_buyer_visits": null,
+    "threshold_established": false
+  },
+  "deferred_actions": [
+    {
+      "channel": "LinkedIn",
+      "reason": "Oct 13 verification-time anchor retained. No repeat launch or new post merely for this daily check."
+    },
+    {
+      "channel": "Facebook",
+      "reason": "Batch-check tip remains Published, dated Oct 16 at 9:27 AM; verification-time rolling anchor retained. No duplicate or new post."
+    },
+    {
+      "channel": "X and Gumroad guides",
+      "reason": "Existing launch and guide checked. No new publication merely for a daily run."
+    },
+    {
+      "channel": "Reddit",
+      "reason": "Filtered original and single unanswered review unchanged. Promotion and duplicate appeals held."
+    },
+    {
+      "channel": "Product Hunt",
+      "reason": "Signup-freeze hold unchanged; no retry or owner reminder. Availability of an unrelated browser does not change this hold."
+    },
+    {
+      "channel": "AlternativeTo",
+      "reason": "Existing sign-in handoff pending; no duplicate reminder."
+    }
+  ],
+  "verification_scope": {
+    "code_changes": false,
+    "automated_product_tests": {
+      "status": "inapplicable",
+      "reason": "No product code or delivery changes; read-only shop and campaign check."
+    },
+    "frontend_build": {
+      "status": "inapplicable",
+      "reason": "No frontend changes."
+    },
+    "backend_build": {
+      "status": "inapplicable",
+      "reason": "No backend changes."
+    },
+    "delivery": {
+      "status": "not_retested_today",
+      "last_verified_date": "2026-09-30",
+      "free_test_excluded": 1
+    },
+    "observed_inbound_scope": "Checked placement comment/reply totals; no product questions observed. Facebook notification control had no unread badge; private inboxes were not inspected.",
+    "checkout": "Listing and correct checkout item/total/enabled Pay observed. No order submitted; payment completion untested. No reCAPTCHA connection notice observed today."
+  },
+  "notification": {
+    "decision": "DONT_NOTIFY",
+    "reason": "Listing available at approved price and checkout opens; no genuine sale, observed product question, moderation change, new placement or required owner action."
+  }
+}

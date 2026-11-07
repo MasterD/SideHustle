@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-01",
+  "product": {
+    "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+    "product_id": "tzihvm",
+    "public_listing": "for_sale",
+    "base_price_usd": 9,
+    "checkout": "loaded_product_and_pay_form_without_order",
+    "checkout_proof": "marketing/checks/2026-10-01/checkout.png"
+  },
+  "sales": {
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "proof": "marketing/checks/2026-10-01/products.png"
+  },
+  "traffic": {
+    "raw_gumroad_views": 4,
+    "date_range": "2026-09-01 through 2026-10-01",
+    "raw_referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 2,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "note": "Aggregate views can include owner and campaign QA visits. Genuine buyer count cannot be separated; do not subtract guessed counts or treat these four raw views as buyers.",
+    "proof": "marketing/checks/2026-10-01/analytics.png"
+  },
+  "placements": [
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "published_content_global_visibility_and_product_link_verified",
+      "inbound_questions": "none_visible",
+      "metrics": {
+        "impressions": 62,
+        "members_reached": 48,
+        "link_engagements": 1,
+        "comments": 0,
+        "reactions": 0,
+        "reposts": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null
+      }
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "status": "public_post_and_existing_page_verified",
+      "comments": 0,
+      "metrics": {
+        "views": 1,
+        "viewers": 1,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null,
+        "note": "Owner/QA visits and the verified launch-time link click can be included; do not claim a buyer."
+      }
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "status": "published_copy_product_link_and_artwork_verified",
+      "metrics": {
+        "views": 2,
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Views may include our QA; new-account discoverability remains unverified."
+      }
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "moderator_review": {
+        "status": "sent_message_verified_no_response",
+        "conversation_url": "https://www.reddit.com/room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com",
+        "own_request_visible": true,
+        "moderator_response_visible": false,
+        "replies": 0
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "channel": "AlternativeTo",
+      "status": "saved_tab_unresponsive",
+      "observed": "Inspection of saved tab 25 timed out; account authentication could not be checked. Existing owner sign-in handoff remains pending. No duplicate reminder."
+    }
+  ],
+  "spend_zar": 0,
+  "orders_placed": 0,
+  "new_posts": 0,
+  "checkout_cart_cleaned": true,
+  "completed_at_utc": "2026-10-01T07:17:57.368Z",
+  "outcome": "completed_no_notification_trigger",
+  "action_needed_new": false,
+  "existing_holds": [
+    "AlternativeTo owner sign-in pending; saved tab was unresponsive and no duplicate reminder sent",
+    "Product Hunt remains on hold",
+    "Further Reddit promotion remains on hold pending moderator review"
+  ]
+}

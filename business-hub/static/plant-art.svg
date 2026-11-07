@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="700" viewBox="0 0 650 700">
+  <title>Room to grow</title>
+  <desc>A geometric botanical composition in royal blue, navy and coral on a cool paper background.</desc>
+
+  <!-- Flat shapes and a circular backdrop give the studio its own visual rhythm. -->
+  <rect width="650" height="700" fill="#f3f6fc"/>
+  <circle cx="302" cy="316" r="239" fill="#ffffff"/>
+  <circle cx="466" cy="180" r="78" fill="#ff8169"/>
+  <path d="M80 581H575" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <path d="M66 169H102M84 151V187" fill="none" stroke="#315fe7" stroke-width="3"/>
+  <circle cx="548" cy="337" r="5" fill="#ff8169"/>
+  <circle cx="570" cy="359" r="5" fill="#315fe7"/>
+  <circle cx="548" cy="381" r="5" fill="#15223b"/>
+
+  <!-- The main plant uses broad, graphic leaves rather than a realistic texture. -->
+  <g fill="none" stroke="#15223b" stroke-width="7" stroke-linecap="round">
+    <path d="M288 491C277 407 294 332 287 252V145"/>
+    <path d="M284 418L199 355M288 343L368 294M286 264L222 218M288 203L338 159"/>
+  </g>
+  <path d="M285 419C212 441 151 397 149 328C213 306 282 350 285 419Z" fill="#315fe7"/>
+  <path d="M288 363C367 385 427 334 420 260C355 251 294 294 288 363Z" fill="#15223b"/>
+  <path d="M286 289C225 304 167 264 172 199C233 187 284 228 286 289Z" fill="#ff8169"/>
+  <path d="M287 228C352 247 404 204 401 144C342 132 291 173 287 228Z" fill="#315fe7"/>
+  <path d="M287 171C245 160 223 114 241 72C286 84 308 124 287 171Z" fill="#15223b"/>
+  <g fill="none" stroke="#f3f6fc" stroke-width="2.5" stroke-linecap="round">
+    <path d="M275 411L166 340M218 374L215 328M217 375L172 387"/>
+    <path d="M300 355L405 274M346 320L351 272M347 320L398 326"/>
+    <path d="M277 281L185 211M236 249L234 207M236 249L187 255"/>
+    <path d="M299 220L386 155M341 189L345 150M341 189L381 193"/>
+    <path d="M285 157L247 87"/>
+  </g>
+
+  <!-- A coral bowl balances the tall navy and blue plant. -->
+  <ellipse cx="285" cy="596" rx="102" ry="15" fill="#dbe3ef"/>
+  <path d="M192 482H378L357 568C338 612 230 612 213 568Z" fill="#ff8169"/>
+  <path d="M195 497H375" fill="none" stroke="#15223b" stroke-width="12"/>
+  <path d="M235 525H335M247 546H323M260 566H310" fill="none" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- A second, smaller plant sits on a stepped blue plinth. -->
+  <path d="M416 596H569V610H416Z" fill="#315fe7"/>
+  <path d="M435 610H550V631H435Z" fill="#15223b"/>
+  <g fill="none" stroke="#15223b" stroke-width="4" stroke-linecap="round">
+    <path d="M490 483V294M490 448L454 413M491 394L529 364M490 342L456 311"/>
+  </g>
+  <path d="M490 451C458 463 427 440 429 404C459 397 489 419 490 451Z" fill="#315fe7"/>
+  <path d="M491 399C523 412 556 387 555 350C522 347 494 368 491 399Z" fill="#ff8169"/>
+  <path d="M489 351C460 356 436 336 440 304C468 301 488 323 489 351Z" fill="#15223b"/>
+  <path d="M490 316C516 323 538 304 535 278C509 276 493 294 490 316Z" fill="#315fe7"/>
+  <g fill="none" stroke="#f3f6fc" stroke-width="1.8">
+    <path d="M484 444L439 413M499 393L546 358M483 344L447 313"/>
+  </g>
+  <path d="M448 483H533L521 584H460Z" fill="#15223b"/>
+  <path d="M448 483H533V497H448Z" fill="#315fe7"/>
+  <path d="M465 520H516M468 539H513M471 558H510" fill="none" stroke="#ff8169" stroke-width="3"/>
+
+  <!-- Small foreground sprig and dots complete the composition. -->
+  <path d="M91 565H155L149 600H97Z" fill="#315fe7"/>
+  <path d="M123 567V494" fill="none" stroke="#15223b" stroke-width="3"/>
+  <path d="M122 543C102 550 83 535 85 514C105 510 122 525 122 543Z" fill="#ff8169"/>
+  <path d="M123 518C142 525 162 511 162 490C142 485 125 500 123 518Z" fill="#15223b"/>
+  <circle cx="173" cy="621" r="4" fill="#ff8169"/>
+  <circle cx="189" cy="621" r="4" fill="#315fe7"/>
+</svg>

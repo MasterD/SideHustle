@@ -1,0 +1,2 @@
+I've launched Caption Cleanup Kit: an offline tool for existing SRT/VTT files. Convert subtitles, tidy text, shift timings, export transcripts or batch ZIPs. US$9 once. No subtitle uploads.
+https://tiaanbok0.gumroad.com/l/caption-cleanup-kit

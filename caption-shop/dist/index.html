@@ -1,0 +1,158 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An offline subtitle toolkit for video editors: batch conversion, timing offsets, readable transcripts and cue sheets."><title>Caption Cleanup Kit — Product preview</title><style>:root{color-scheme:light;--ink:#182922;--muted:#637269;--paper:#f4f4ec;--line:#d8ded3;--accent:#245c3b;--lime:#d8f49b;--white:#fff;--danger:#a33b32}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button,a,input,select,textarea{outline-offset:4px}button{cursor:pointer;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink);padding:11px 17px;font-weight:650}button:hover{border-color:var(--accent)}button:disabled{opacity:.45;cursor:default}button.primary,.button{background:var(--accent);color:white;border-color:var(--accent)}a{color:var(--accent)}.button{display:inline-block;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:650}.shell{max-width:1320px;margin:auto;padding:0 32px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-.04em;font-size:23px;text-decoration:none;color:var(--ink)}.brand span{display:inline-grid;place-items:center;margin-right:9px;width:33px;height:33px;border-radius:7px;background:var(--lime);font-size:16px;letter-spacing:-.1em}.pill{background:#e5eadf;border-radius:20px;padding:6px 12px;font-size:12px;font-weight:650}.intro{display:flex;justify-content:space-between;align-items:end;gap:30px;padding:36px 0 28px}.eyebrow{font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:var(--accent)}h1{font-size:42px;line-height:1.1;letter-spacing:-.05em;margin:10px 0 14px}h2{font-size:21px;letter-spacing:-.02em;margin:0 0 13px}p{margin:0 0 16px}.muted,.intro p{color:var(--muted)}.intro p{max-width:650px;margin:0}.workspace{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px;min-width:0}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.panel-head h2{margin:0}.step{font-size:12px;color:var(--muted);margin-right:9px}.file-label{display:block;padding:19px;border:1px dashed #9fab9d;border-radius:8px;background:#f7f9f3;font-weight:600;cursor:pointer;margin-bottom:10px}.file-label small{display:block;font-weight:400;color:var(--muted);margin:4px 0 8px}.file-label input{max-width:100%;font-size:13px}.source{font-size:12px;color:var(--muted);min-height:20px;margin:10px 0}label{font-size:13px;font-weight:650;display:block;margin-bottom:5px}textarea{display:block;width:100%;min-height:300px;resize:vertical;border:1px solid var(--line);border-radius:8px;background:#fbfcf8;color:var(--ink);padding:16px;font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace}textarea[readonly]{background:#f6f8f2}select,input[type=number]{width:100%;border:1px solid var(--line);border-radius:7px;padding:9px;background:white;color:var(--ink)}.settings{display:grid;grid-template-columns:1fr 1fr 1fr;gap:13px;margin:20px 0}.check{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:400;margin:8px 0}.check input{accent-color:var(--accent)}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.status{padding:15px 0;font-size:14px;min-height:50px}.error{color:var(--danger)}.stats{background:var(--lime);padding:10px 13px;border-radius:7px;font-size:13px;margin-bottom:17px}.checks{margin-top:23px}.checks h3{font-size:14px;margin:0}.checks ul{padding-left:19px;font-size:12px;color:var(--muted);max-height:170px;overflow:auto}.checks ul:empty:after{content:"No checks to show.";display:block;margin-left:-19px}.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid var(--line);padding:28px 0;margin-top:30px}.notes h3{font-size:14px;margin:0 0 7px}.notes p{font-size:13px;color:var(--muted)}footer{padding:20px 0 35px;color:var(--muted);font-size:12px}.hero{padding:70px 0 45px;display:grid;grid-template-columns:1.15fr 1fr;gap:60px;align-items:center}.hero h1{font-size:64px;max-width:650px}.hero p{font-size:18px;max-width:590px;color:var(--muted)}.hero .actions{margin:25px 0}.hero-card{background:#1b3528;color:#fff;padding:30px;border-radius:13px;box-shadow:10px 10px 0 var(--lime)}.hero-card .eyebrow{color:var(--lime)}.hero-card pre{font:13px/1.9 ui-monospace,Consolas,monospace;white-space:pre-wrap;color:#dce9d4}.hero-card .arrow{padding:15px 0;color:var(--lime)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:25px 0 45px}.feature{border-top:2px solid var(--ink);padding:20px 0}.feature h2{font-size:18px}.feature p{font-size:14px;color:var(--muted)}.offer{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:25px 0 50px}.offer ul{padding-left:20px;color:var(--muted);font-size:14px}.price{font-size:45px;letter-spacing:-.04em;font-weight:750}.small{font-size:12px;color:var(--muted)}details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:650;cursor:pointer}details p{color:var(--muted);font-size:14px;margin-top:10px}.guide{max-width:840px;padding:35px 25px;margin:auto}.guide h2{margin-top:30px}.guide li{margin-bottom:10px}.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.demo-grid textarea{min-height:225px}.review{background:#fff4ce;border:1px solid #ead399;padding:13px 18px;border-radius:8px;font-size:13px;margin:20px 0}.review a{font-weight:650}@media(max-width:850px){.shell{padding:0 19px}.workspace,.hero,.offer{grid-template-columns:1fr}.hero{padding-top:38px;gap:25px}.hero h1{font-size:47px}h1{font-size:34px}.intro{align-items:start;flex-direction:column}.notes,.features{grid-template-columns:1fr;gap:7px}.demo-grid{grid-template-columns:1fr}.settings{grid-template-columns:1fr 1fr}.panel{padding:17px}.hero-card{box-shadow:6px 6px 0 var(--lime)}}@media print{button,.actions,.review{display:none}.shell{max-width:none}.hero{padding:25px 0}.hero-card{box-shadow:none}body{background:white}.panel{break-inside:avoid}}
+.price .small{display:block;letter-spacing:0;font-weight:400;margin:3px 0 16px;}
+</style><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22%3E%3Crect width=%2248%22 height=%2248%22 rx=%2210%22 fill=%22%23245c3b%22/%3E%3Cpath d=%22M12 16h24v16H12z%22 fill=%22none%22 stroke=%22%23d8f49b%22 stroke-width=%223%22/%3E%3Cpath d=%22M17 22h14M17 27h9%22 stroke=%22%23d8f49b%22 stroke-width=%222%22/%3E%3C/svg%3E"></head><body><div class="shell"><header><div class="brand"><span>CC</span>Caption Cleanup Kit</div><span class="pill">One download. Yours to keep.</span></header><div class="review">Local product review · The live offer and checkout are hosted on Gumroad.</div>
+<main><section class="hero"><div><div class="eyebrow">For editors, podcasters and caption workflows</div><h1>Your captions.<br>A little cleaner.</h1><p>Turn subtitle exports into ready-to-use files, readable transcripts and cue sheets. Batch-process your captions in a quiet, offline workspace.</p><div class="actions"><a class="button" href="#demo">Try the sample</a><a class="button" href="Caption-Cleanup-Kit.html">Open full product review</a></div><p class="small">No subscription · No AI credits · No uploads</p></div><div class="hero-card"><div class="eyebrow">From subtitle export…</div><pre>1
+00:00:00,500 --> 00:00:03,500
+Welcome to your next creative project.</pre><div class="arrow">↓ Choose your format. Export.</div><div class="eyebrow">…to readable transcript</div><pre>Welcome to your next creative project.
+Good captions make every word easier to follow.</pre></div></section>
+<section class="features"><article class="feature"><h2>One batch, one ZIP.</h2><p>Convert up to 100 SRT or VTT files with the same settings. Each batch includes a review report.</p></article><article class="feature"><h2>Useful export formats.</h2><p>SRT, VTT, plain text, timestamped transcripts and CSV cue sheets. Add a timing offset and tidy extra spaces.</p></article><article class="feature"><h2>Files stay on your device.</h2><p>Open the downloaded HTML file in your browser. The workspace runs offline and has no accounts or usage charges.</p></article></section>
+<section class="panel" id="demo"><div class="eyebrow">See the workflow</div><h2>A small, working sample.</h2><p class="muted">Convert these original sample captions into plain text. The purchased toolkit handles your own files, batch ZIPs, timing offsets and all five export formats.</p><div class="demo-grid"><div><label for="demo-input">Sample subtitle text</label><textarea id="demo-input" readonly></textarea></div><div><label for="demo-output">Transcript output</label><textarea id="demo-output" readonly placeholder="Your transcript appears here"></textarea></div></div><div class="actions"><button id="demo-run" class="primary">Convert sample to transcript</button></div><p id="demo-status" class="status" role="status" aria-live="polite"></p></section>
+<section class="offer"><article class="panel"><div class="eyebrow">Live launch offer</div><h2>Caption Cleanup Kit 1.0</h2><div class="price">US$9 <span class="small">once · applicable checkout taxes may be added</span></div><ul><li>Offline caption workspace in a single HTML file</li><li>Five output formats and batch ZIP export</li><li>Timing offsets, line wrapping and caption review checks</li><li>Quick-start guide and original SRT/VTT examples</li><li>License for personal and commercial client work</li></ul><a class="button" href="https://tiaanbok0.gumroad.com/l/caption-cleanup-kit" target="_blank" rel="noopener">Buy on Gumroad · US$9</a><p class="small" style="margin-top:12px">The kit edits existing subtitles. It does not transcribe audio or translate speech.</p></article><article><h2>Before you buy</h2><details open><summary>What do I need?</summary><p>A desktop computer, a current browser and an existing UTF-8 SRT or VTT file. Your editor or transcription service provides the initial captions.</p></details><details><summary>Can I work offline?</summary><p>Yes. After downloading and extracting the ZIP, open the toolkit HTML file on your device. It includes everything needed to process subtitle text.</p></details><details><summary>Does it generate captions from audio?</summary><p>No. It cleans and reformats existing subtitle files. It does not upload media or use a transcription API.</p></details><details><summary>Will it preserve styling?</summary><p>It preserves caption text and timings. WebVTT positioning, styles, regions, notes and identifiers are omitted. Formatting tags can be retained for subtitle exports by changing an option.</p></details><details><summary>Can I use it for client work?</summary><p>Yes. One purchaser can use the kit for personal and commercial projects and share their own exports. The toolkit itself cannot be redistributed or resold.</p></details></article></section></main><footer>Product review prepared 30 September 2026 · Separate from the reporting business</footer></div><script>/* Caption Cleanup Kit 1.0. Original implementation; no external dependencies. */
+(function (root) {
+  'use strict';
+  const MAX_BYTES = 2 * 1024 * 1024;
+  function timestamp(value) {
+    const m = value.match(/^(?:(\d{2,}):)?(\d{2}):(\d{2})[.,](\d{3})$/);
+    if (!m || +m[2] > 59 || +m[3] > 59) throw new Error('Invalid timestamp: ' + value);
+    return ((+(m[1] || 0) * 3600 + +m[2] * 60 + +m[3]) * 1000) + +m[4];
+  }
+  function clock(ms, vtt = false) {
+    if (!Number.isSafeInteger(ms) || ms < 0) throw new Error('Invalid output time.');
+    const pad = (n, size = 2) => String(n).padStart(size, '0');
+    return pad(Math.floor(ms / 3600000)) + ':' + pad(Math.floor(ms / 60000) % 60) + ':' +
+      pad(Math.floor(ms / 1000) % 60) + (vtt ? '.' : ',') + pad(ms % 1000, 3);
+  }
+  function parse(input) {
+    if (new TextEncoder().encode(input).length > MAX_BYTES) throw new Error('File exceeds the 2 MB limit.');
+    const text = input.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
+    if (!text) throw new Error('The file is empty.');
+    const isVtt = /^WEBVTT(?:[ \t]|\n|$)/.test(text);
+    const blocks = text.split(/\n[ \t]*\n/);
+    const cues = [], warnings = [];
+    for (let b = 0; b < blocks.length; b++) {
+      const lines = blocks[b].split('\n');
+      if (b === 0 && isVtt && /^WEBVTT/.test(lines[0])) {
+        lines.shift();
+        if (!lines.some(line => line.includes('-->'))) continue;
+      }
+      if (isVtt && /^(NOTE(?:[ \t]|$)|STYLE$|REGION$)/.test(lines[0])) {
+        warnings.push('A WebVTT note, style or region block was omitted.');
+        continue;
+      }
+      let timeIndex = lines[0]?.includes('-->') ? 0 : 1;
+      const timing = lines[timeIndex]?.match(/^\s*(\S+)\s+-->\s+(\S+)(.*)$/);
+      if (!timing) throw new Error('Block ' + (b + 1) + ' has no valid timing line.');
+      if (timeIndex === 1 && !isVtt && !/^\d+$/.test(lines[0].trim())) {
+        throw new Error('Block ' + (b + 1) + ' has an invalid SRT cue number.');
+      }
+      const start = timestamp(timing[1]), end = timestamp(timing[2]);
+      if (end <= start) throw new Error('Block ' + (b + 1) + ' must end after it starts.');
+      if (timing[3].trim()) warnings.push('Position settings on cue ' + (cues.length + 1) + ' were omitted.');
+      const body = lines.slice(timeIndex + 1).join('\n').trim();
+      if (!body) throw new Error('Block ' + (b + 1) + ' has no caption text.');
+      cues.push({start, end, text: body});
+    }
+    if (!cues.length) throw new Error('No subtitle cues were found.');
+    if (cues.length > 20000) throw new Error('The file exceeds the 20,000 cue limit.');
+    return {cues, warnings: [...new Set(warnings)], source: isVtt ? 'vtt' : 'srt'};
+  }
+  function plain(value) {
+    const entities = {amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' '};
+    return value.replace(/<[^>]*>/g, '').replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi,
+      (whole, key) => {
+        if (key[0] !== '#') return entities[key.toLowerCase()];
+        const n = key[1].toLowerCase() === 'x' ? parseInt(key.slice(2), 16) : +key.slice(1);
+        return n > 0 && n <= 0x10ffff && !(n >= 0xd800 && n <= 0xdfff) ? String.fromCodePoint(n) : whole;
+      });
+  }
+  function wrap(value, width) {
+    if (!width) return value;
+    const lines = [], words = value.replace(/\s+/g, ' ').trim().split(' ');
+    let line = '';
+    for (const word of words) {
+      if (line && [...line + ' ' + word].length > width) { lines.push(line); line = word; }
+      else line += (line ? ' ' : '') + word;
+    }
+    if (line) lines.push(line);
+    return lines.join('\n');
+  }
+  function transform(cues, options = {}) {
+    const offset = options.offset ?? 0, width = options.width ?? 0;
+    if (!Number.isFinite(offset) || Math.abs(offset) > 86400) throw new Error('Offset must be within 24 hours.');
+    if (!Number.isInteger(width) || (width !== 0 && (width < 10 || width > 100))) throw new Error('Line width must be 10–100, or 0 to preserve lines.');
+    const shift = Math.round(offset * 1000);
+    return cues.map((cue, index) => {
+      const start = cue.start + shift, end = cue.end + shift;
+      if (start < 0) throw new Error('Offset moves cue ' + (index + 1) + ' before 00:00. Reduce the negative offset.');
+      let text = options.strip ? plain(cue.text) : cue.text;
+      if (options.tidy) text = text.split('\n').map(line => line.replace(/[ \t]+/g, ' ').trim()).join('\n');
+      text = wrap(text, width);
+      return {start, end, text};
+    });
+  }
+  function csvCell(value) {
+    let text = String(value);
+    if (/^[=+\-@\t\r]/.test(text)) text = "'" + text;
+    return '"' + text.replace(/"/g, '""') + '"';
+  }
+  function render(cues, format) {
+    if (format === 'srt' || format === 'vtt') {
+      return (format === 'vtt' ? 'WEBVTT\n\n' : '') + cues.map((c, i) =>
+        (format === 'srt' ? (i + 1) + '\n' : '') + clock(c.start, format === 'vtt') + ' --> ' +
+        clock(c.end, format === 'vtt') + '\n' + c.text).join('\n\n') + '\n';
+    }
+    if (format === 'txt') return cues.map(c => plain(c.text).replace(/\s+/g, ' ').trim()).join('\n') + '\n';
+    if (format === 'timed') return cues.map(c => '[' + clock(c.start, true).slice(0, -4) + '] ' + plain(c.text).replace(/\s+/g, ' ').trim()).join('\n') + '\n';
+    if (format === 'csv') return '\uFEFFcue,start,end,text\r\n' + cues.map((c, i) =>
+      [i + 1, clock(c.start, true), clock(c.end, true), plain(c.text)].map(csvCell).join(',')).join('\r\n') + '\r\n';
+    throw new Error('Unknown output format.');
+  }
+  function inspect(cues) {
+    const issues = [];
+    for (let i = 0; i < cues.length; i++) {
+      const c = cues[i], text = plain(c.text), chars = [...text.replace(/\s/g, '')].length;
+      if (i && c.start < cues[i - 1].start) issues.push('Cue ' + (i + 1) + ': starts out of sequence.');
+      if (i && c.start < cues[i - 1].end) issues.push('Cue ' + (i + 1) + ': overlaps the previous cue.');
+      if (chars / ((c.end - c.start) / 1000) > 20) issues.push('Cue ' + (i + 1) + ': more than 20 characters per second.');
+      if (text.split('\n').length > 2) issues.push('Cue ' + (i + 1) + ': more than two lines.');
+      if (text.split('\n').some(line => [...line].length > 42)) issues.push('Cue ' + (i + 1) + ': a line exceeds 42 characters.');
+    }
+    return issues;
+  }
+  function safeName(value) { return value.replace(/\.[^.]*$/, '').replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 80) || 'captions'; }
+  // Standard ZIP store records, UTF-8 names; browsers need no zip library or network.
+  function zip(entries) {
+    const encoder = new TextEncoder(), chunks = [], central = [], names = new Set();
+    let offset = 0, centralSize = 0;
+    const record = size => { const bytes = new Uint8Array(size); return {bytes, view: new DataView(bytes.buffer)}; };
+    const crc = bytes => { let n = -1; for (const byte of bytes) {n ^= byte; for (let k = 0; k < 8; k++) n = (n >>> 1) ^ (0xedb88320 & -(n & 1));} return (n ^ -1) >>> 0; };
+    if (entries.length > 65535) throw new Error('Too many ZIP entries.');
+    for (const entry of entries) {
+      if (names.has(entry.name) || /(^\/|\\|(?:^|\/)\.\.(?:\/|$))/.test(entry.name)) throw new Error('Unsafe or duplicate archive filename.');
+      names.add(entry.name);
+      const name = encoder.encode(entry.name), data = encoder.encode(entry.text), checksum = crc(data);
+      if (name.length > 65535 || offset + data.length > 0xffffffff) throw new Error('Archive too large.');
+      const local = record(30 + name.length), l = local.view;
+      l.setUint32(0, 0x04034b50, true); l.setUint16(4, 20, true); l.setUint16(6, 0x0800, true);
+      l.setUint16(12, 0x0021, true); l.setUint32(14, checksum, true); l.setUint32(18, data.length, true);
+      l.setUint32(22, data.length, true); l.setUint16(26, name.length, true); local.bytes.set(name, 30);
+      chunks.push(local.bytes, data);
+      const header = record(46 + name.length), v = header.view;
+      v.setUint32(0, 0x02014b50, true); v.setUint16(4, 20, true); v.setUint16(6, 20, true);
+      v.setUint16(8, 0x0800, true); v.setUint16(14, 0x0021, true); v.setUint32(16, checksum, true);
+      v.setUint32(20, data.length, true); v.setUint32(24, data.length, true); v.setUint16(28, name.length, true);
+      v.setUint32(42, offset, true); header.bytes.set(name, 46); central.push(header.bytes);
+      offset += local.bytes.length + data.length; centralSize += header.bytes.length;
+    }
+    const end = record(22), e = end.view;
+    e.setUint32(0, 0x06054b50, true); e.setUint16(8, entries.length, true); e.setUint16(10, entries.length, true);
+    e.setUint32(12, centralSize, true); e.setUint32(16, offset, true);
+    const result = new Uint8Array(offset + centralSize + 22);
+    let pos = 0; for (const chunk of [...chunks, ...central, end.bytes]) {result.set(chunk, pos); pos += chunk.length;}
+    return result;
+  }
+  const api = {parse, timestamp, clock, transform, render, inspect, plain, wrap, zip, safeName, MAX_BYTES};
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.CaptionKit = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+</script><script>const sample='1\n00:00:00,500 --> 00:00:03,500\nWelcome to your next creative project.\n\n2\n00:00:04,000 --> 00:00:07,000\n<i>Good captions make every word easier to follow.</i>\n';document.getElementById('demo-input').value=sample;document.getElementById('demo-run').addEventListener('click',()=>{document.getElementById('demo-output').value=CaptionKit.render(CaptionKit.parse(sample).cues,'txt');document.getElementById('demo-status').textContent='Two cues converted. No files were uploaded.';});</script></body></html>

@@ -1,0 +1,266 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Pages":
+        - /url: /pages/?category=your_pages&ref=bookmarks
+      - link "Business Dashboard":
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link "Ad Center":
+        - /url: /61594786357864/ad_center/
+  - navigation "Account Controls and Settings":
+    - button "Facebook menu":
+    - link "Messenger":
+      - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=1233228509884814
+      - link "Messenger":
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=1233228509884814
+    - button "Notifications":
+    - button "Your profile":
+      - img "Your profile"
+- navigation:
+  - heading "Business Dashboard" [active] [level=1]
+  - button "Collapse navigation"
+  - list:
+    - link "Home":
+      - /url: https://www.facebook.com/professional_dashboard/?ref=profile_manage_post_cta
+      - generic: Home
+    - link "Analytics":
+      - /url: https://www.facebook.com/professional_dashboard/profile_insights/views/?ref=profile_manage_post_cta
+      - generic: Analytics
+    - link "Content" [expanded]:
+      - /url: https://www.facebook.com/professional_dashboard/content/content_library/?ref=profile_manage_post_cta
+      - generic: Content
+    - list:
+      - link "Content Library":
+        - /url: https://www.facebook.com/professional_dashboard/content/content_library/?ref=profile_manage_post_cta
+        - generic: Content Library
+      - link "Planner":
+        - /url: https://www.facebook.com/professional_dashboard/content_calendar/?ref=prodash_left_nav
+        - generic: Planner
+      - link "Playlists":
+        - /url: https://www.facebook.com/professional_dashboard/content/playlists/?ref=profile_manage_post_cta
+        - generic: Playlists
+    - link "Community":
+      - /url: https://www.facebook.com/professional_dashboard/engagement/comments_manager/?ref=profile_manage_post_cta
+      - generic: Community
+    - link "All tools":
+      - /url: https://www.facebook.com/professional_dashboard/tools/?ref=profile_manage_post_cta
+      - generic: All tools
+  - button "Create a post":
+    - generic: Create a post
+- main:
+  - main:
+    - heading "Videos you post on Facebook are now reels" [level=2]:
+      - generic: Videos you post on Facebook are now reels
+    - generic: You can still view your previously posted videos, but they will be combined under the reels filter.
+    - button "Dismiss Videos you post on Facebook are now reels card"
+    - heading "Content Library" [level=2]:
+      - generic: Content Library
+    - tablist:
+      - button "More":
+        - generic: More
+      - tab "Published":
+        - generic: Published
+      - tab "Scheduled":
+        - generic: Scheduled
+      - tab "Drafts":
+        - generic: Drafts
+    - textbox "Search for posts"
+    - button "Create":
+      - generic: Create
+    - button "Filters":
+      - generic: Filters
+    - button "Columns":
+      - generic: Columns
+    - 'button "Last 28 days: Sep 20 - Oct 18"':
+      - generic: "Last 28 days: Sep 20 - Oct 18"
+    - button "Export data":
+      - generic: Export data
+    - strong: "0"
+    - strong: /50
+    - text: posts selected
+    - grid "Content Library":
+      - rowgroup:
+        - row "Select all Preview Views Viewers Engagement Follows Impressions Comments Distribution Watch time Average watch time 3-second views 1-minute views":
+          - columnheader "Select all":
+            - checkbox "Select all"
+          - columnheader "Preview":
+            - button "Preview":
+              - generic: Preview
+          - columnheader
+          - columnheader "Views":
+            - button "Views":
+              - generic: Views
+          - columnheader "Viewers":
+            - button "Viewers":
+              - generic: Viewers
+          - columnheader "Engagement":
+            - button "Engagement":
+              - generic: Engagement
+          - columnheader "Follows":
+            - button "Follows":
+              - generic: Follows
+          - columnheader "Impressions":
+            - button "Impressions":
+              - generic: Impressions
+          - columnheader "Comments":
+            - button "Comments":
+              - generic: Comments
+          - columnheader "Distribution":
+            - button "Distribution":
+              - generic: Distribution
+          - columnheader "Watch time":
+            - button "Watch time":
+              - generic: Watch time
+          - columnheader "Average watch time":
+            - button "Average watch time":
+              - generic: Average watch time
+          - columnheader "3-second views":
+            - button "3-second views":
+              - generic: 3-second views
+          - columnheader "1-minute views":
+            - button "1-minute views":
+              - generic: 1-minute views
+      - rowgroup:
+        - row "Select a post Link to view a post page Actions for this post 2 1 1 0 1 0 +1.0x ‑‑ ‑‑ 0 0":
+          - gridcell "Select a post":
+            - checkbox "Select a post"
+          - gridcell "Link to view a post page":
+            - link "Link to view a post page":
+              - /url: /content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjExNjM2ODc0MTQ5Mjg3ODoxMjIxMTYzNjg3NDE0OTI4Nzg%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - heading [level=2]:
+                - generic: "Batch-converting a folder of subtitles? Start with one representative file. 1. Keep untouched originals in a separate folder. 2. Export one copy in the format your destination needs, then open it in that player or editor. 3. Check cues near the start, middle and end against the video. Review the words, timings and line breaks. 4. If the source is WebVTT, check whether the export preserves the styling or positioning your project needs. When that sample works, process the rest and review the batch report before publishing. A successful conversion is still a file that needs checking. I’m the seller of Caption Cleanup Kit. It exports existing UTF-8 SRT/VTT files as a ZIP with a review report: up to 100 files, 2 MB per file and 20 MB per batch. It works offline in a current desktop browser with no subtitle uploads. US$9 once, including a quick-start guide and samples. The kit omits WebVTT notes, styles, regions, cue identifiers and positioning settings. It does not transcribe audio or check the words against your video."
+              - generic: Published •
+              - generic: Oct 16 at 9:27 AM
+          - gridcell "Actions for this post":
+            - button "Actions for this post":
+          - gridcell "2":
+            - generic: "2"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "+1.0x":
+            - generic: +1.0x
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "Select a post Link to view a post page Actions for this post 12 2 1 0 4 0 +1.6x ‑‑ ‑‑ 0 0":
+          - gridcell "Select a post":
+            - checkbox "Select a post"
+          - gridcell "Link to view a post page":
+            - link "Link to view a post page":
+              - /url: /content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjExMTk0MjU2NTQ5Mjg3ODoxMjIxMTE5NDI1NjU0OTI4Nzg%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - 'heading "Captions start in sync but drift out later? Check three points before shifting the whole subtitle file. • Same delay at the start, middle and end: a constant offset may help. If every cue is 1.5 seconds late, shift by −1.5 seconds, then review. • Delay grows as the video plays: one constant offset will not fix the drift. Check that the subtitles match the video version and timing. • A sudden jump after a cut: check that edit before moving every cue. Keep the original file and spot-check the export against your video. Caption Cleanup Kit is my offline tool for existing SRT/VTT files. It applies a constant timing offset and can convert subtitle formats or export transcripts. US$9 once, with a quick-start guide and samples. It does not transcribe audio or automatically repair timing drift." [level=2]':
+                - generic: "Captions start in sync but drift out later? Check three points before shifting the whole subtitle file. • Same delay at the start, middle and end: a constant offset may help. If every cue is 1.5 seconds late, shift by −1.5 seconds, then review. • Delay grows as the video plays: one constant offset will not fix the drift. Check that the subtitles match the video version and timing. • A sudden jump after a cut: check that edit before moving every cue. Keep the original file and spot-check the export against your video. Caption Cleanup Kit is my offline tool for existing SRT/VTT files. It applies a constant timing offset and can convert subtitle formats or export transcripts. US$9 once, with a quick-start guide and samples. It does not transcribe audio or automatically repair timing drift."
+              - generic: Published •
+              - generic: Oct 8 at 9:10 AM
+          - gridcell "Actions for this post":
+            - button "Actions for this post":
+          - gridcell "12":
+            - generic: "12"
+          - gridcell "2":
+            - generic: "2"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "4":
+            - generic: "4"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "+1.6x":
+            - generic: +1.6x
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "Select a post Link to view a post page Actions for this post 31 7 1 0 11 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "Select a post":
+            - checkbox "Select a post"
+          - gridcell "Link to view a post page":
+            - link "Link to view a post page":
+              - /url: /content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjEwMTAwNjgxNTQ5Mjg3ODoxMjIxMDEwMDY4MTU0OTI4Nzg%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - 'heading "For video editors, course creators and educators who already have SRT or VTT captions: I''ve launched a small offline subtitle toolkit. Caption Cleanup Kit converts SRT/VTT, exports plain or timed transcripts and CSV cue sheets, tidies text, adjusts timing offsets and exports batches as ZIPs with a review report. Open its HTML file in a current desktop browser; no installation, subscription or subtitle uploads. US$9 once, including a quick-start guide and samples. This is my product. It edits existing subtitles; it does not transcribe audio." [level=2]':
+                - generic: "For video editors, course creators and educators who already have SRT or VTT captions: I've launched a small offline subtitle toolkit. Caption Cleanup Kit converts SRT/VTT, exports plain or timed transcripts and CSV cue sheets, tidies text, adjusts timing offsets and exports batches as ZIPs with a review report. Open its HTML file in a current desktop browser; no installation, subscription or subtitle uploads. US$9 once, including a quick-start guide and samples. This is my product. It edits existing subtitles; it does not transcribe audio."
+              - generic: Published •
+              - generic: Sep 30 at 1:41 PM
+          - gridcell "Actions for this post":
+            - button "Actions for this post":
+          - gridcell "31":
+            - generic: "31"
+          - gridcell "7":
+            - generic: "7"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "11":
+            - generic: "11"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "Select a post Link to view a post page Actions for this post 1 1 0 0 1 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "Select a post":
+            - checkbox "Select a post"
+          - gridcell "Link to view a post page":
+            - link "Link to view a post page":
+              - /url: /content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjEwMTAwMjMyNzQ5Mjg3ODoyMDcwOTAzNjY2ODgxMzg5&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - heading "No text content" [level=2]:
+                - generic: No text content
+              - generic: Published •
+              - generic: Sep 30 at 1:39 PM
+          - gridcell "Actions for this post":
+            - button "Actions for this post":
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"

@@ -1,0 +1,73 @@
+{
+  "modelVersion": "demo-motor-v1",
+  "label": "Quote Lab illustrative motor estimate",
+  "currency": "ZAR",
+  "calibrated": false,
+  "notice": "Local proof of concept. These invented demo rates are not insurer tariffs or an offer of insurance. The scenario band is not a confidence interval or a guarantee of a final premium.",
+  "referenceVehicleValue": 620000,
+  "referenceMonthlyPremium": 2000,
+  "referenceExplanation": "The configured monthly amount and vehicle value form an illustrative reference inspired by the conversation, not a verified user premium or a competitor quote. All numerical rates below are fabricated for this demo and have not been extracted from insurer sources.",
+  "factors": {
+    "driverAge": {"under25": 1.25, "25AndOver": 1},
+    "licenceYears": {"under3": 1.15, "3AndOver": 1},
+    "claimsLast3Years": {"0": 1, "1": 1.15, "2AndOver": 1.3},
+    "annualKm": {"upTo10000": 0.95, "upTo20000": 1, "over20000": 1.1},
+    "usage": {"private": 1, "business": 1.12, "delivery": 1.25},
+    "overnightParking": {"garage": 1, "secured": 1, "driveway": 1.08, "street": 1.18},
+    "tracker": {"active": 1, "none": 1.08},
+    "coverType": {"comprehensive": 1, "third_party_fire_theft": 0.72, "third_party": 0.48},
+    "excess": {"under2500": 1.15, "upTo5000": 1, "over5000": 0.92}
+  },
+  "optionalMonthly": {"carHire": 90, "creditShortfall": 45},
+  "scenarioBand": {
+    "basePercent": 10,
+    "missingFieldWeightPercent": 25,
+    "perUnpricedDriverPercent": 5,
+    "maximumUnpricedPercent": 15,
+    "maximumMarginPercent": 50,
+    "explanation": "Arbitrary demonstration sensitivity band: plus or minus (10 + 25 x missing fields / 22 + min(15, 5 x unresolved pricing drivers)) percent, capped at 50%. It has not been statistically calibrated and does not measure accuracy, probability or confidence."
+  },
+  "completenessFields": [
+    {"key": "variant", "label": "Exact vehicle variant"},
+    {"key": "colour", "label": "Declared colour"},
+    {"key": "paintFinish", "label": "Paint finish"},
+    {"key": "valuationBasis", "label": "Valuation basis"},
+    {"key": "locationDescription", "label": "General area"},
+    {"key": "driverAge", "label": "Driver age"},
+    {"key": "licenceYears", "label": "Years licensed"},
+    {"key": "claimsLast3Years", "label": "Claims in the last three years"},
+    {"key": "annualKm", "label": "Annual kilometres"},
+    {"key": "usage", "label": "Vehicle use"},
+    {"key": "overnightParking", "label": "Overnight parking"},
+    {"key": "tracker", "label": "Tracker status"},
+    {"key": "finance", "label": "Finance status"},
+    {"key": "coverType", "label": "Cover type"},
+    {"key": "excess", "label": "Chosen excess"},
+    {"key": "carHire", "label": "Car hire option"},
+    {"key": "creditShortfall", "label": "Credit shortfall option"},
+    {"key": "modifications", "label": "Modification declaration"},
+    {"key": "extrasConfirmed", "label": "Extras declaration answered"},
+    {"key": "extras-costs", "label": "Incremental extras costs known"},
+    {"key": "extras-inclusion", "label": "Extras inclusion in vehicle value known"},
+    {"key": "extras-inventory", "label": "Extras inventory confirmed complete"}
+  ],
+  "unpricedChecks": [
+    "Insurer-specific location risk and declared colour/paint verification",
+    "Exact model, year, variant and valuation verification",
+    "Performance modifications, cosmetic changes and specialty paint",
+    "Extras whose incremental value or inclusion is unknown",
+    "Insurer eligibility, coverage limits, exclusions and excess conditions"
+  ],
+  "sources": [
+    {
+      "title": "OUTsurance: non-standard vehicle accessories",
+      "url": "https://www.outsurance.co.za/car-insurance/non-standard-accessories/",
+      "purpose": "Field selection only: distinguishes standard items within vehicle value from non-standard accessories. Does not supply numerical demo rates."
+    },
+    {
+      "title": "MiWay: car modifications and insurance",
+      "url": "https://www.miway.co.za/blog/do-car-modifications-affect-your-car-insurance",
+      "purpose": "Field selection only: prompts disclosure and provider review of modifications. Does not supply numerical demo rates."
+    }
+  ]
+}

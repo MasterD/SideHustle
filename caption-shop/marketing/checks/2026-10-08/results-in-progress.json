@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-08",
+  "trigger_at_utc": "2026-10-08T07:02:04.053Z",
+  "started_at_utc": "2026-10-08T07:03:32.711Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "status": "for_sale_content_verified",
+      "localized_listing_price_zar": 150.15,
+      "qa_visit": true
+    },
+    {
+      "channel": "Gumroad checkout",
+      "status": "opens_with_product_payment_form_and_pay_control",
+      "localized_checkout_total_zar": 152,
+      "creator_test_notice_visible": true,
+      "order_placed": false
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "published_content_and_product_link_verified",
+      "inbound_questions": "none_visible",
+      "metrics": {
+        "impressions": 68,
+        "members_reached": 53,
+        "link_engagements": 1,
+        "comments": 0,
+        "reactions": 0,
+        "reposts": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null
+      }
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "status": "public_post_and_existing_page_verified",
+      "comments": 0,
+      "metrics": {
+        "views": 14,
+        "viewers": 4,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null,
+        "note": "Raw views and launch QA link click can include owner/QA activity."
+      }
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "status": "published_copy_product_link_and_artwork_verified",
+      "metrics": {
+        "views": 7,
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Raw views may include QA; new-account discoverability remains unverified."
+      }
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "moderator_review": {
+        "status": "sent_message_verified_no_response",
+        "conversation_url": "https://www.reddit.com/room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com",
+        "own_request_visible": true,
+        "moderator_response_visible": false,
+        "replies": 0,
+        "access": "Native Chat on existing launch-post page; existing review subject visible"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "channel": "Facebook public Page timing tip",
+      "platform": "facebook",
+      "status": "published_and_verified",
+      "published_date": "2026-10-08",
+      "published_at_utc": "2026-10-08T07:12:10.494Z",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "page_url": "https://www.facebook.com/profile.php?id=61594786357864",
+      "page_id": "61594786357864",
+      "audience": "Public",
+      "campaign": "timingtip20261008",
+      "title": "Captions start in sync but drift out later?",
+      "copy": "Captions start in sync but drift out later? Check three points before shifting the whole subtitle file.\n\n• Same delay at the start, middle and end: a constant offset may help. If every cue is 1.5 seconds late, shift by −1.5 seconds, then review.\n\n• Delay grows as the video plays: one constant offset will not fix the drift. Check that the subtitles match the video version and timing.\n\n• A sudden jump after a cut: check that edit before moving every cue.\n\nKeep the original file and spot-check the export against your video.\n\nCaption Cleanup Kit is my offline tool for existing SRT/VTT files. It applies a constant timing offset and can convert subtitle formats or export transcripts. US$9 once, with a quick-start guide and samples. It does not transcribe audio or automatically repair timing drift.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook&utm_medium=social&utm_campaign=timingtip20261008",
+      "copy_record": "timing-tip-2026-10-08.json",
+      "proof": "checks/2026-10-08/facebook-timing-tip-live.png",
+      "paid_promotion": false,
+      "spend_zar": 0,
+      "checkout_destination_verified": true,
+      "qa_outbound_visits": 1,
+      "last_checked_date": "2026-10-08",
+      "last_check": {
+        "status": "public_permanent_post_complete_copy_and_correct_product_destination_verified",
+        "comments": 0,
+        "buyer_visits": null
+      },
+      "rules_check": {
+        "date": "2026-10-08",
+        "url": "https://transparency.meta.com/policies/community-standards/spam/",
+        "facts": "Current policy forbids very high frequency or repetitive posting, deceptive links and engagement manipulation. This single new educational Page post identifies the product affiliation, uses the real product destination and requests no engagement."
+      },
+      "rationale": "An original worked timing example for editors, distinct from the launch feature list. Helps buyers identify when a constant offset is suitable and accurately explains the product limitation."
+    }
+  ],
+  "new_posts": 1,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "qa_cart_cleared": true,
+  "sales": {
+    "product_id": "tzihvm",
+    "status": "Published",
+    "base_price_usd": 9,
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "free_creator_tests_excluded": 1,
+    "source": "Authenticated Products row; no buyer records accessed"
+  },
+  "traffic": {
+    "raw_gumroad_views": 6,
+    "date_range": "2026-09-08 through 2026-10-08",
+    "referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 4,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "campaign_attributed_sales": null,
+    "note": "Raw counts may include owner/QA visits. This run made one QA listing visit; do not infer buyer demand."
+  },
+  "blocked_channels": [
+    {
+      "channel": "Product Hunt",
+      "status": "held_after_repeated_signup_freezes",
+      "retry": false,
+      "owner_reminder_repeated": false
+    },
+    {
+      "channel": "AlternativeTo",
+      "status": "existing_owner_sign_in_handoff_pending",
+      "retry": false,
+      "owner_reminder_repeated": false
+    }
+  ],
+  "notification_trigger": "completed_new_free_facebook_placement"
+}

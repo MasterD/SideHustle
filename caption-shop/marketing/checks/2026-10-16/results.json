@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-16",
+  "trigger_at_utc": "2026-10-16T06:59:25.498Z",
+  "execution": "scheduled_heartbeat",
+  "outcome": "completed_checks_facebook_publication_unverified_browser_frozen",
+  "checks": [
+    {
+      "channel": "Gumroad approved product",
+      "url": "https://gumroad.com/products",
+      "product_id": "tzihvm",
+      "published": true,
+      "base_price_usd": 9,
+      "genuine_sales": 0,
+      "revenue_usd": 0,
+      "evidence": "products.png"
+    },
+    {
+      "channel": "Gumroad aggregate analytics",
+      "url": "https://gumroad.com/dashboard/sales?from=2026-09-16&to=2026-10-16",
+      "date_range": {
+        "from": "2026-09-16",
+        "to": "2026-10-16"
+      },
+      "raw_views": 16,
+      "sales": 0,
+      "revenue_usd": 0,
+      "referrers": [
+        {
+          "source": "Direct, email, IM",
+          "views": 6,
+          "sales": 0
+        },
+        {
+          "source": "linkedin.com",
+          "views": 2,
+          "sales": 0
+        },
+        {
+          "source": "m.facebook.com",
+          "views": 8,
+          "sales": 0
+        }
+      ],
+      "buyer_page_visits": null,
+      "campaign_attributed_sales": null,
+      "measurement_note": "Observed before today listing QA. Raw metrics include unknown owner, QA and preview activity.",
+      "evidence": "gumroad-analytics.png"
+    },
+    {
+      "channel": "Public listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "for_sale": true,
+      "display_price_zar": 148.05,
+      "approved_base_price_usd": 9,
+      "claims_match_existing_offline_srt_vtt": true,
+      "evidence": "listing.png"
+    },
+    {
+      "channel": "Checkout",
+      "url": "https://gumroad.com/checkout?product=tzihvm&quantity=1",
+      "opened": true,
+      "product_id": "tzihvm",
+      "quantity": 1,
+      "total_display_zar": 150,
+      "pay_button_present": true,
+      "creator_test_notice": true,
+      "order_placed": false,
+      "qa_cart_removed": true,
+      "evidence": "checkout.png"
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "content_verified": true,
+      "comments": 0,
+      "inbound_questions": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7510987455580319744/",
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "impressions": 80,
+      "members_reached": 56,
+      "link_engagements": 1,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "inbound_questions": 0,
+      "evidence": "linkedin-launch-analytics.png"
+    },
+    {
+      "channel": "LinkedIn public transcript workflow post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515671218566496258/",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7515671219749408768/",
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "impressions": 17,
+      "members_reached": 10,
+      "profile_viewers_from_post": 1,
+      "link_engagements": null,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "inbound_questions": 0,
+      "evidence": "linkedin-transcript-analytics.png",
+      "measurement_note": "No link engagement metric displayed; preserve unknown."
+    },
+    {
+      "channel": "Facebook public Page timing tip",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "page_id": "61594786357864",
+      "public": true,
+      "content_verified": true,
+      "views": 9,
+      "viewers": 1,
+      "link_clicks": 1,
+      "known_publication_qa_link_clicks": 1,
+      "reactions": 0,
+      "comments": 0,
+      "shares": 0,
+      "inbound_questions": 0,
+      "evidence": "facebook-timing-tip-insights.png",
+      "measurement_note": "Raw counts include owner and QA. Link click includes known publication QA."
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "page_id": "61594786357864",
+      "public": true,
+      "content_verified": true,
+      "views": 28,
+      "viewers": 6,
+      "link_clicks": 1,
+      "known_qa_clicks": 1,
+      "reactions": 0,
+      "comments": 0,
+      "shares": 0,
+      "inbound_questions": 0,
+      "evidence": "facebook-launch-insights.png",
+      "measurement_note": "Raw counts include owner and QA. Link click includes known launch QA."
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "content_verified": true,
+      "artwork_alt_verified": true,
+      "views": 12,
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "inbound_questions": 0,
+      "evidence": "x-launch.png",
+      "measurement_note": "Raw views may include QA; new-account discoverability is unverified."
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "filtered": true,
+      "comments": 0,
+      "review_subject": "Review request: filtered offline subtitle toolkit launch",
+      "review_requested_date": "2026-09-30",
+      "moderator_response": false,
+      "thread_replies": 0,
+      "additional_promotion": false,
+      "duplicate_appeal_sent": false,
+      "evidence": "reddit-review.png"
+    }
+  ],
+  "publications": [],
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "buyer_page_visits": null,
+  "campaign_attributed_sales": null,
+  "free_creator_tests_excluded": 1,
+  "qa_activity": {
+    "public_listing_visits": 1,
+    "checkout_openings": 1,
+    "orders_placed": 0,
+    "qa_cart_removed": true,
+    "outbound_social_product_clicks": 0
+  },
+  "browser_recovery_note": "Long AX text entry timed out and reset the local REPL. Existing composer contained partial text; it was inspected, replaced with the saved complete copy using paste and verified before continuing. No Post action had occurred.",
+  "completed_at_utc": "2026-10-16T07:16:08.081Z",
+  "genuine_sales": 0,
+  "revenue_usd": 0,
+  "new_posts_count_note": "Zero new verified placements. Actual result of one Facebook Post click is unknown; do not count it as published or retry until inspected.",
+  "unverified_publication_attempts": [
+    {
+      "channel": "Facebook existing Page",
+      "page_id": "61594786357864",
+      "campaign": "batchcheck20261016",
+      "copy_record": "marketing/batch-check-post-2026-10-16.json",
+      "publication_url": null,
+      "publication_verified": false,
+      "spend_zar": 0
+    }
+  ],
+  "demand_review": {
+    "days_since_launch": 16,
+    "day_threshold": 30,
+    "relevant_buyer_visit_threshold": 100,
+    "relevant_buyer_visits": null,
+    "threshold_established": false
+  },
+  "deferred_actions": [
+    {
+      "channel": "LinkedIn",
+      "reason": "Oct 13 original remains inside seven-day limit."
+    },
+    {
+      "channel": "Facebook",
+      "reason": "One new original batch-check lesson prepared under elapsed rolling limit; publication unverified after browser freeze. Hold repeat submission until existing content is inspected."
+    },
+    {
+      "channel": "Reddit",
+      "reason": "Original filtered; single Sep 30 moderator request unanswered. Further promotion and duplicate appeals held."
+    },
+    {
+      "channel": "Product Hunt",
+      "reason": "Existing signup-freeze hold unchanged; no retry or duplicate owner reminder."
+    },
+    {
+      "channel": "AlternativeTo",
+      "reason": "Existing sign-in handoff pending; no duplicate reminder."
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "reason": "Required owner action: close frozen Facebook browser tab; new post submission result remains unverified."
+  },
+  "resolution": {
+    "date": "2026-10-16",
+    "execution": "owner_requested_recovery",
+    "outcome": "saved_tip_published_and_verified_after_earlier_attempt_confirmed_absent",
+    "record": "facebook-recovery.json",
+    "publication_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02D7xwnmHTSyw4F4SYyB3eHPos9yrjkdBPi7f66CeNBj7ZPCLEmLFH8ZCY777bh9PQl&id=61594786357864"
+  }
+}

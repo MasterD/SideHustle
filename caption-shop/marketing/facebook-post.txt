@@ -1,0 +1,7 @@
+For video editors, course creators and educators who already have SRT or VTT captions: I've launched a small offline subtitle toolkit.
+
+Caption Cleanup Kit converts SRT/VTT, exports plain or timed transcripts and CSV cue sheets, tidies text, adjusts timing offsets and exports batches as ZIPs with a review report. Open its HTML file in a current desktop browser; no installation, subscription or subtitle uploads.
+
+US$9 once, including a quick-start guide and samples. This is my product. It edits existing subtitles; it does not transcribe audio.
+
+https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook&utm_medium=social&utm_campaign=launch20260930

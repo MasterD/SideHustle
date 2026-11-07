@@ -1,0 +1,32 @@
+{
+  "label": "SYNTHETIC DEMONSTRATION \u2014 not actual business revenue",
+  "period": {
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "as_of": "2026-09-28"
+  },
+  "currency": "ZAR",
+  "sales_ex_vat_cents": 1230000,
+  "transaction_count": 4,
+  "outstanding_ex_vat_cents": 650000,
+  "overdue_ex_vat_cents": 400000,
+  "by_client_cents": {
+    "Agency Alpha": 560000,
+    "Agency Beta": 420000,
+    "Agency Gamma": 250000
+  },
+  "overdue_invoices": [
+    {
+      "invoice_id": "DEMO-INV-001",
+      "client": "Agency Alpha",
+      "due_date": "2026-09-15",
+      "outstanding_cents": 200000
+    },
+    {
+      "invoice_id": "DEMO-INV-002",
+      "client": "Agency Beta",
+      "due_date": "2026-09-20",
+      "outstanding_cents": 200000
+    }
+  ]
+}

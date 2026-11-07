@@ -1,0 +1,5 @@
+invoice_id,client,issued_date,due_date,amount_ex_vat,paid_ex_vat
+DEMO-INV-001,Agency Alpha,2026-09-01,2026-09-15,3500.00,1500.00
+DEMO-INV-002,Agency Beta,2026-09-05,2026-09-20,4200.00,2200.00
+DEMO-INV-003,Agency Gamma,2026-09-22,2026-10-06,2500.00,0.00
+DEMO-INV-004,Agency Delta,2026-09-10,2026-09-24,1000.00,1000.00

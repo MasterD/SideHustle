@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-16",
+  "channel": "Facebook existing Caption Cleanup Kit Page",
+  "status": "published_and_verified",
+  "campaign": "batchcheck20261016",
+  "copy": "Batch-converting a folder of subtitles? Start with one representative file.\n\n1. Keep untouched originals in a separate folder.\n2. Export one copy in the format your destination needs, then open it in that player or editor.\n3. Check cues near the start, middle and end against the video. Review the words, timings and line breaks.\n4. If the source is WebVTT, check whether the export preserves the styling or positioning your project needs.\n\nWhen that sample works, process the rest and review the batch report before publishing. A successful conversion is still a file that needs checking.\n\nI’m the seller of Caption Cleanup Kit. It exports existing UTF-8 SRT/VTT files as a ZIP with a review report: up to 100 files, 2 MB per file and 20 MB per batch. It works offline in a current desktop browser with no subtitle uploads.\n\nUS$9 once, including a quick-start guide and samples. The kit omits WebVTT notes, styles, regions, cue identifiers and positioning settings. It does not transcribe audio or check the words against your video.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook&utm_medium=social&utm_campaign=batchcheck20261016",
+  "price_usd": 9,
+  "spend_zar": 0,
+  "page_id": "61594786357864",
+  "rules_check": {
+    "date": "2026-10-16",
+    "url": "https://transparency.meta.com/policies/community-standards/spam/",
+    "facts": "Read current Today policy. No high-frequency or repetitive promotion, deceptive links or artificial engagement. One distinct practical workflow post, seller-disclosed, direct real product link; prior Page original verified Oct 8."
+  },
+  "rationale": "Teaches a representative-file preflight before batch conversion, a distinct task from the launch feature list and the timing-offset tip. Provides a concrete review process and accurate WebVTT limitations for editors considering batch exports.",
+  "composer_verified": {
+    "author": "Caption Cleanup Kit",
+    "audience": "Public",
+    "schedule": "Publish now",
+    "boost": false,
+    "prior_original_anchor_utc": "2026-10-08T07:12:10.494Z",
+    "rolling_limit_elapsed": true
+  },
+  "publication_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02D7xwnmHTSyw4F4SYyB3eHPos9yrjkdBPi7f66CeNBj7ZPCLEmLFH8ZCY777bh9PQl&id=61594786357864",
+  "publication_verified": true,
+  "publication_attempt": {
+    "date": "2026-10-16",
+    "final_post_click_completed": true,
+    "success_notice_observed": false,
+    "new_permanent_post_observed": false,
+    "subsequent_state": "Composer closed, but full draft text remained in the Page entry button. Attempted content-library navigation showed Leave Page / unfinished-post dialog. Keep editing then timed out. No second Post action was sent.",
+    "recovery": "Fresh read-only content-library tab failed to attach; closing the single temporary campaign tab timed out.",
+    "next_step": "Resolved. Track this exact permanent post and observe the new conservative seven-day anchor before another original Facebook post.",
+    "owner_action_requested_date": "2026-10-16",
+    "resolved_date": "2026-10-16",
+    "resolved_by": "checks/2026-10-16/facebook-recovery.json"
+  },
+  "publication_verified_at_utc": "2026-10-16T07:29:31.267Z",
+  "proof": "checks/2026-10-16/facebook-batch-tip-live.png",
+  "product_destination_verified": true,
+  "qa_outbound_visits": 1
+}

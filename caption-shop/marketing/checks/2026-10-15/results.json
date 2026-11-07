@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-15",
+  "trigger_at_utc": "2026-10-15T06:59:58.211Z",
+  "started_at_utc": "2026-10-15T07:03:38.525Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad approved product",
+      "url": "https://gumroad.com/products",
+      "product_id": "tzihvm",
+      "published": true,
+      "base_price_usd": 9,
+      "genuine_sales": 0,
+      "revenue_usd": 0,
+      "evidence": "products.png",
+      "observed_at_utc": "2026-10-15T07:03:58.906Z"
+    },
+    {
+      "channel": "Gumroad aggregate analytics",
+      "url": "https://gumroad.com/dashboard/sales?from=2026-09-15&to=2026-10-15",
+      "date_range": {
+        "from": "2026-09-15",
+        "to": "2026-10-15"
+      },
+      "raw_views": 15,
+      "sales": 0,
+      "revenue_usd": 0,
+      "referrers": [
+        {
+          "source": "Direct, email, IM",
+          "views": 5,
+          "sales": 0
+        },
+        {
+          "source": "linkedin.com",
+          "views": 2,
+          "sales": 0
+        },
+        {
+          "source": "m.facebook.com",
+          "views": 8,
+          "sales": 0
+        }
+      ],
+      "buyer_page_visits": null,
+      "campaign_attributed_sales": null,
+      "measurement_note": "Observed before today listing QA. Raw totals include unknown QA, owner and preview traffic; do not infer buyers.",
+      "evidence": "gumroad-analytics.png"
+    },
+    {
+      "channel": "Public listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "for_sale": true,
+      "display_price_zar": 149.21,
+      "approved_base_price_usd": 9,
+      "claims_match_existing_offline_srt_vtt": true,
+      "transcription_claim": false,
+      "evidence": "listing.png"
+    },
+    {
+      "channel": "Checkout",
+      "url": "https://gumroad.com/checkout?product=tzihvm&quantity=1",
+      "opened": true,
+      "product_id": "tzihvm",
+      "quantity": 1,
+      "total_display_zar": 151,
+      "pay_button_present": true,
+      "creator_test_notice": true,
+      "order_placed": false,
+      "evidence": "checkout.png",
+      "qa_cart_removed": true
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "content_verified": true,
+      "comments": 0,
+      "inbound_questions": 0,
+      "evidence": "gumroad-guide.png"
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7510987455580319744/",
+      "content_verified": true,
+      "public_visibility_reverified": false,
+      "impressions": 78,
+      "members_reached": 56,
+      "link_engagements": 1,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "inbound_questions": 0,
+      "evidence": "linkedin-launch-analytics.png"
+    },
+    {
+      "channel": "LinkedIn public transcript workflow post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515671218566496258/",
+      "content_verified": true,
+      "inbound_questions_observed": 0,
+      "link_campaign": "transcripts20261013",
+      "evidence": "linkedin-transcript-post.png",
+      "analytics_url": "https://www.linkedin.com/analytics/post-summary/urn:li:activity:7515671219749408768/",
+      "impressions": 17,
+      "members_reached": 10,
+      "profile_viewers_from_post": 1,
+      "comments": 0,
+      "reactions": 0,
+      "reposts": 0,
+      "link_engagements": null,
+      "analytics_evidence": "linkedin-transcript-analytics.png",
+      "measurement_note": "No link engagement metric displayed; preserve unknown."
+    },
+    {
+      "channel": "Facebook public Page timing tip",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "page_id": "61594786357864",
+      "public": true,
+      "content_verified": true,
+      "views": 7,
+      "viewers": 1,
+      "link_clicks": 1,
+      "known_publication_qa_link_clicks": 1,
+      "reactions": 0,
+      "comments": 0,
+      "shares": 0,
+      "inbound_questions": 0,
+      "insights_url": "https://www.facebook.com/content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjExMTk0MjU2NTQ5Mjg3ODoxMjIxMTE5NDI1NjU0OTI4Nzg%3D&entry_point=CometFeedStoryProfilePlusViewInsightsButton",
+      "evidence": "facebook-timing-tip-insights.png",
+      "measurement_note": "Raw views include owner and QA; known link click was publication QA."
+    },
+    {
+      "channel": "Facebook public Page launch",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "page_id": "61594786357864",
+      "public": true,
+      "content_verified": true,
+      "views": 26,
+      "viewers": 6,
+      "link_clicks": 1,
+      "known_qa_clicks": 1,
+      "reactions": 0,
+      "comments": 0,
+      "shares": 0,
+      "inbound_questions": 0,
+      "insights_url": "https://www.facebook.com/content/insights/?content_id=UzpfSTYxNTk0Nzg2MzU3ODY0OjEyMjEwMTAwNjgxNTQ5Mjg3ODoxMjIxMDEwMDY4MTU0OTI4Nzg%3D&entry_point=CometFeedStoryProfilePlusViewInsightsButton",
+      "evidence": "facebook-launch-insights.png",
+      "measurement_note": "Raw views and clicks include owner and QA traffic."
+    },
+    {
+      "channel": "X public launch",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "content_verified": true,
+      "artwork_alt_verified": true,
+      "views": 11,
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "inbound_questions": 0,
+      "evidence": "x-launch.png",
+      "measurement_note": "Raw views may include QA; new-account discoverability limitation preserved."
+    },
+    {
+      "channel": "Reddit SideProject filtered launch",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "filtered": true,
+      "comments": 0,
+      "review_subject": "Review request: filtered offline subtitle toolkit launch",
+      "review_requested_date": "2026-09-30",
+      "moderator_response": false,
+      "thread_replies": 0,
+      "additional_promotion": false,
+      "duplicate_appeal_sent": false,
+      "evidence": "reddit-review.png"
+    }
+  ],
+  "publications": [],
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "completed_at_utc": "2026-10-15T07:09:53.087Z",
+  "outcome": "completed_no_actionable_change",
+  "genuine_sales": 0,
+  "revenue_usd": 0,
+  "free_creator_tests_excluded": 1,
+  "buyer_page_visits": null,
+  "campaign_attributed_sales": null,
+  "last_completed_check_before_this_run": "2026-10-13",
+  "coverage_note": "No completed Oct 14 observations were available in the durable ledger. Today’s observations are dated Oct 15 and do not backfill the interrupted check.",
+  "qa_activity": {
+    "public_listing_visits": 1,
+    "checkout_openings": 1,
+    "orders_placed": 0,
+    "qa_cart_removed": true,
+    "outbound_social_product_clicks": 0
+  },
+  "deferred_actions": [
+    {
+      "channel": "LinkedIn",
+      "reason": "Oct 13 original post remains inside the rolling seven-day limit."
+    },
+    {
+      "channel": "Facebook",
+      "reason": "Oct 8 verification anchor remained inside seven days at this heartbeat trigger. No post published merely for the run."
+    },
+    {
+      "channel": "Reddit",
+      "reason": "Filtered original and single unanswered moderator request unchanged; further promotion and duplicate appeals held."
+    },
+    {
+      "channel": "Product Hunt",
+      "reason": "Repeated signup freeze hold preserved; no retry or duplicate owner reminder."
+    },
+    {
+      "channel": "AlternativeTo",
+      "reason": "Existing owner sign-in handoff remains pending; no duplicate reminder."
+    },
+    {
+      "channel": "Other original posts and directories",
+      "reason": "No newly verified eligible placement or fresh useful publication prepared this run; rolling ceilings are not posting quotas."
+    }
+  ],
+  "demand_review": {
+    "days_since_launch": 15,
+    "day_threshold": 30,
+    "relevant_buyer_visit_threshold": 100,
+    "relevant_buyer_visits": null,
+    "threshold_established": false
+  },
+  "notification": {
+    "decision": "DONT_NOTIFY",
+    "reason": "Shop and checkout healthy; no genuine sale, relevant inbound question, moderation change, completed placement or new owner action."
+  }
+}

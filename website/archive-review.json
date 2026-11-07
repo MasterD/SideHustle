@@ -1,0 +1,27 @@
+{
+  "archive": "quietbatch-site-preview.zip",
+  "sha256": "a24bec86d19a48eb395e0fea79fe0c5a45bb509461b6f907867da6f05481ae3c",
+  "content_sha256": "402fb0b251179b98169a4084b7340b1aa61208e7bd8095cf6a8427097d5474f3",
+  "files": [
+    "index.html",
+    "styles.css",
+    "sample.html",
+    "sample.js",
+    "privacy.html",
+    "seller.html",
+    "paia.html",
+    "404.html",
+    "_headers",
+    "robots.txt",
+    "sample-sales.csv",
+    "sample-invoices.csv",
+    "sample-report.json"
+  ],
+  "publicly_deployed": false,
+  "contains_owner_contact_and_location": true,
+  "public_disclosure_approved": true,
+  "publication_approved": true,
+  "exact_content_approved": false,
+  "publication_archive": false,
+  "note": "Local review archive contains the owner's address, coordinates and telephone. Do not upload without explicit disclosure and publication approval; confirm privacy setup before launch."
+}

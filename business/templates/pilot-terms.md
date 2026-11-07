@@ -1,0 +1,14 @@
+# Proposed pilot terms — owner and customer review required
+
+Seller: Theunis Christian Botha, trading as QuietBatch; email quietbatchreports@gmail.com [owner-approved service address still needed]. Customer: [legal name/contact]. Date: [date]. Quote: [reference]. These are draft operational terms, not an executed agreement. The owner confirms employer approval is not required for outside-hours work. Payment is by EFT to the owner's chosen FNB account after payment setup and written scope agreement.
+
+1. Scope: the accepted quote defines exports, report measures, deliverables, delivery date and acceptance test. Added sources, live integrations, write access, hosting and ongoing support require a separate agreement.
+2. Payment: proposed fixed total R3,500, with R1,750 after scope agreement and the remaining R1,750 after acceptance. No VAT is charged while the seller is not a registered vendor. The seller confirms the delivery slot before accepting payment.
+3. Acceptance: parties run the agreed sample and compare the expected results. The customer reports a mismatch with sufficient examples; the seller corrects defects in the agreed scope. The included single revision applies to an agreed change, not a limit on correcting defective work.
+4. Cancellation/refund: before work begins, the proposed policy is to refund the deposit in full. After work begins, discuss a fair amount for actual accepted work completed and refund any balance where appropriate. Applicable cancellation, refund and other statutory consumer rights always prevail; these terms do not exclude them. Review the applicable rights before executing the agreement.
+5. Inputs and access: the customer supplies authorised exports and confirms their meaning and accuracy. Begin with anonymised samples. Agree data-processing duties, storage, access and deletion in writing before production data is transferred. No credentials, bank connection or write access are included.
+6. Rights: once fully paid, the customer may use and modify the delivered script internally. Customer data remains the customer's. The seller may reuse only generic code created independently with appropriate rights, never the customer's data or confidential business logic. Third-party components retain their licence terms and notices.
+7. Handover: provide a short run guide and agreed test output. A 14-day period to report defects is proposed for handover planning and does not shorten statutory rights. There is no promise of continuous operation or a support subscription.
+8. Tax and communications: the seller issues and retains appropriate invoices and records. Marketing, testimonials and public use of the customer's identity need separate consent. The customer is not promised a particular revenue increase or tax outcome.
+
+Before use: complete identities, disclosures, precise acceptance test, data arrangements and consumer-law review; owner approves the final agreement before it is sent or signed.

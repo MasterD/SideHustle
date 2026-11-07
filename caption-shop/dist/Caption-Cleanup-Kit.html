@@ -1,0 +1,230 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Clean, convert and batch-export subtitle files on your own device."><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Caption Cleanup Kit — Offline workspace</title><style>:root{color-scheme:light;--ink:#182922;--muted:#637269;--paper:#f4f4ec;--line:#d8ded3;--accent:#245c3b;--lime:#d8f49b;--white:#fff;--danger:#a33b32}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button,a,input,select,textarea{outline-offset:4px}button{cursor:pointer;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink);padding:11px 17px;font-weight:650}button:hover{border-color:var(--accent)}button:disabled{opacity:.45;cursor:default}button.primary,.button{background:var(--accent);color:white;border-color:var(--accent)}a{color:var(--accent)}.button{display:inline-block;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:650}.shell{max-width:1320px;margin:auto;padding:0 32px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-.04em;font-size:23px;text-decoration:none;color:var(--ink)}.brand span{display:inline-grid;place-items:center;margin-right:9px;width:33px;height:33px;border-radius:7px;background:var(--lime);font-size:16px;letter-spacing:-.1em}.pill{background:#e5eadf;border-radius:20px;padding:6px 12px;font-size:12px;font-weight:650}.intro{display:flex;justify-content:space-between;align-items:end;gap:30px;padding:36px 0 28px}.eyebrow{font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:var(--accent)}h1{font-size:42px;line-height:1.1;letter-spacing:-.05em;margin:10px 0 14px}h2{font-size:21px;letter-spacing:-.02em;margin:0 0 13px}p{margin:0 0 16px}.muted,.intro p{color:var(--muted)}.intro p{max-width:650px;margin:0}.workspace{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px;min-width:0}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.panel-head h2{margin:0}.step{font-size:12px;color:var(--muted);margin-right:9px}.file-label{display:block;padding:19px;border:1px dashed #9fab9d;border-radius:8px;background:#f7f9f3;font-weight:600;cursor:pointer;margin-bottom:10px}.file-label small{display:block;font-weight:400;color:var(--muted);margin:4px 0 8px}.file-label input{max-width:100%;font-size:13px}.source{font-size:12px;color:var(--muted);min-height:20px;margin:10px 0}label{font-size:13px;font-weight:650;display:block;margin-bottom:5px}textarea{display:block;width:100%;min-height:300px;resize:vertical;border:1px solid var(--line);border-radius:8px;background:#fbfcf8;color:var(--ink);padding:16px;font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace}textarea[readonly]{background:#f6f8f2}select,input[type=number]{width:100%;border:1px solid var(--line);border-radius:7px;padding:9px;background:white;color:var(--ink)}.settings{display:grid;grid-template-columns:1fr 1fr 1fr;gap:13px;margin:20px 0}.check{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:400;margin:8px 0}.check input{accent-color:var(--accent)}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.status{padding:15px 0;font-size:14px;min-height:50px}.error{color:var(--danger)}.stats{background:var(--lime);padding:10px 13px;border-radius:7px;font-size:13px;margin-bottom:17px}.checks{margin-top:23px}.checks h3{font-size:14px;margin:0}.checks ul{padding-left:19px;font-size:12px;color:var(--muted);max-height:170px;overflow:auto}.checks ul:empty:after{content:"No checks to show.";display:block;margin-left:-19px}.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid var(--line);padding:28px 0;margin-top:30px}.notes h3{font-size:14px;margin:0 0 7px}.notes p{font-size:13px;color:var(--muted)}footer{padding:20px 0 35px;color:var(--muted);font-size:12px}.hero{padding:70px 0 45px;display:grid;grid-template-columns:1.15fr 1fr;gap:60px;align-items:center}.hero h1{font-size:64px;max-width:650px}.hero p{font-size:18px;max-width:590px;color:var(--muted)}.hero .actions{margin:25px 0}.hero-card{background:#1b3528;color:#fff;padding:30px;border-radius:13px;box-shadow:10px 10px 0 var(--lime)}.hero-card .eyebrow{color:var(--lime)}.hero-card pre{font:13px/1.9 ui-monospace,Consolas,monospace;white-space:pre-wrap;color:#dce9d4}.hero-card .arrow{padding:15px 0;color:var(--lime)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:25px 0 45px}.feature{border-top:2px solid var(--ink);padding:20px 0}.feature h2{font-size:18px}.feature p{font-size:14px;color:var(--muted)}.offer{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:25px 0 50px}.offer ul{padding-left:20px;color:var(--muted);font-size:14px}.price{font-size:45px;letter-spacing:-.04em;font-weight:750}.small{font-size:12px;color:var(--muted)}details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:650;cursor:pointer}details p{color:var(--muted);font-size:14px;margin-top:10px}.guide{max-width:840px;padding:35px 25px;margin:auto}.guide h2{margin-top:30px}.guide li{margin-bottom:10px}.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.demo-grid textarea{min-height:225px}.review{background:#fff4ce;border:1px solid #ead399;padding:13px 18px;border-radius:8px;font-size:13px;margin:20px 0}.review a{font-weight:650}@media(max-width:850px){.shell{padding:0 19px}.workspace,.hero,.offer{grid-template-columns:1fr}.hero{padding-top:38px;gap:25px}.hero h1{font-size:47px}h1{font-size:34px}.intro{align-items:start;flex-direction:column}.notes,.features{grid-template-columns:1fr;gap:7px}.demo-grid{grid-template-columns:1fr}.settings{grid-template-columns:1fr 1fr}.panel{padding:17px}.hero-card{box-shadow:6px 6px 0 var(--lime)}}@media print{button,.actions,.review{display:none}.shell{max-width:none}.hero{padding:25px 0}.hero-card{box-shadow:none}body{background:white}.panel{break-inside:avoid}}
+.price .small{display:block;letter-spacing:0;font-weight:400;margin:3px 0 16px;}
+</style><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22%3E%3Crect width=%2248%22 height=%2248%22 rx=%2210%22 fill=%22%23245c3b%22/%3E%3Cpath d=%22M12 16h24v16H12z%22 fill=%22none%22 stroke=%22%23d8f49b%22 stroke-width=%223%22/%3E%3Cpath d=%22M17 22h14M17 27h9%22 stroke=%22%23d8f49b%22 stroke-width=%222%22/%3E%3C/svg%3E"></head><body><div class="shell">
+<header><div class="brand"><span>CC</span>Caption Cleanup Kit</div><span class="pill">Offline · Version 1.0</span></header>
+<section class="intro"><div><div class="eyebrow">The last step before publish</div><h1>Make your captions ready.</h1><p>Convert SRT and VTT, adjust timing and export a clean transcript. Everything happens on your device.</p></div><button id="reset">Clear workspace</button></section>
+<main class="workspace"><section class="panel"><div class="panel-head"><h2><span class="step">01</span>Your captions</h2><button id="sample">Load sample</button></div>
+<label class="file-label" for="files">Choose subtitle files<small>SRT or VTT · up to 100 files · 2 MB each · 20 MB per batch</small><input id="files" type="file" accept=".srt,.vtt" multiple></label><div id="source" class="source">Sample captions</div><label for="input">Or paste subtitle text</label><textarea id="input" spellcheck="false"></textarea>
+<div class="settings"><div><label for="format">Export format</label><select id="format"><option value="srt">SRT subtitles</option><option value="vtt">WebVTT subtitles</option><option value="txt">Plain transcript</option><option value="timed">Transcript + timestamps</option><option value="csv">CSV cue sheet</option></select></div><div><label for="offset">Timing offset (seconds)</label><input id="offset" type="number" step="0.001" min="-86400" max="86400" value="0"></div><div><label for="width">Wrap lines</label><select id="width"><option value="0">Preserve existing lines</option><option value="32">32 characters</option><option value="42">42 characters</option><option value="60">60 characters</option></select></div></div>
+<label class="check"><input id="strip" type="checkbox" checked>Remove formatting tags from subtitle exports</label><label class="check"><input id="tidy" type="checkbox" checked>Clean extra spaces</label><div class="actions"><button id="run" class="primary">Run cleanup</button></div><div id="status" class="status" role="status" aria-live="polite"></div></section>
+<section class="panel"><div class="panel-head"><h2><span class="step">02</span>Ready to export</h2><span class="pill">Local processing</span></div><div id="stats" class="stats">Ready when you are</div><label for="output">Output preview</label><textarea id="output" readonly spellcheck="false"></textarea><div class="actions"><button id="download" class="primary" disabled>Download this file</button><button id="batch" disabled>Export all files as ZIP</button></div><section class="checks"><h3>Review checks</h3><p class="small">Heuristics flag fast reading, long lines and overlapping cues. They do not certify accessibility or accuracy.</p><ul id="issues"></ul></section></section></main>
+<section class="notes"><div><h3>Your files stay here</h3><p>No uploads, analytics, accounts or cloud processing. Close or clear the page to remove its in-memory workspace.</p></div><div><h3>Start with a transcript</h3><p>This toolkit edits existing subtitle text. It does not transcribe audio, translate captions or correct spoken words.</p></div><div><h3>Keep the original</h3><p>WebVTT notes, style blocks, regions and positioning settings are omitted. Outputs are new files; compare them with the media.</p></div></section><footer><a href="Quick-Start.html">Quick-start guide</a> · Caption Cleanup Kit 1.0 · Open this HTML file in a current desktop browser. Personal and commercial use of your own exported captions is included.</footer></div><script>/* Caption Cleanup Kit 1.0. Original implementation; no external dependencies. */
+(function (root) {
+  'use strict';
+  const MAX_BYTES = 2 * 1024 * 1024;
+  function timestamp(value) {
+    const m = value.match(/^(?:(\d{2,}):)?(\d{2}):(\d{2})[.,](\d{3})$/);
+    if (!m || +m[2] > 59 || +m[3] > 59) throw new Error('Invalid timestamp: ' + value);
+    return ((+(m[1] || 0) * 3600 + +m[2] * 60 + +m[3]) * 1000) + +m[4];
+  }
+  function clock(ms, vtt = false) {
+    if (!Number.isSafeInteger(ms) || ms < 0) throw new Error('Invalid output time.');
+    const pad = (n, size = 2) => String(n).padStart(size, '0');
+    return pad(Math.floor(ms / 3600000)) + ':' + pad(Math.floor(ms / 60000) % 60) + ':' +
+      pad(Math.floor(ms / 1000) % 60) + (vtt ? '.' : ',') + pad(ms % 1000, 3);
+  }
+  function parse(input) {
+    if (new TextEncoder().encode(input).length > MAX_BYTES) throw new Error('File exceeds the 2 MB limit.');
+    const text = input.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
+    if (!text) throw new Error('The file is empty.');
+    const isVtt = /^WEBVTT(?:[ \t]|\n|$)/.test(text);
+    const blocks = text.split(/\n[ \t]*\n/);
+    const cues = [], warnings = [];
+    for (let b = 0; b < blocks.length; b++) {
+      const lines = blocks[b].split('\n');
+      if (b === 0 && isVtt && /^WEBVTT/.test(lines[0])) {
+        lines.shift();
+        if (!lines.some(line => line.includes('-->'))) continue;
+      }
+      if (isVtt && /^(NOTE(?:[ \t]|$)|STYLE$|REGION$)/.test(lines[0])) {
+        warnings.push('A WebVTT note, style or region block was omitted.');
+        continue;
+      }
+      let timeIndex = lines[0]?.includes('-->') ? 0 : 1;
+      const timing = lines[timeIndex]?.match(/^\s*(\S+)\s+-->\s+(\S+)(.*)$/);
+      if (!timing) throw new Error('Block ' + (b + 1) + ' has no valid timing line.');
+      if (timeIndex === 1 && !isVtt && !/^\d+$/.test(lines[0].trim())) {
+        throw new Error('Block ' + (b + 1) + ' has an invalid SRT cue number.');
+      }
+      const start = timestamp(timing[1]), end = timestamp(timing[2]);
+      if (end <= start) throw new Error('Block ' + (b + 1) + ' must end after it starts.');
+      if (timing[3].trim()) warnings.push('Position settings on cue ' + (cues.length + 1) + ' were omitted.');
+      const body = lines.slice(timeIndex + 1).join('\n').trim();
+      if (!body) throw new Error('Block ' + (b + 1) + ' has no caption text.');
+      cues.push({start, end, text: body});
+    }
+    if (!cues.length) throw new Error('No subtitle cues were found.');
+    if (cues.length > 20000) throw new Error('The file exceeds the 20,000 cue limit.');
+    return {cues, warnings: [...new Set(warnings)], source: isVtt ? 'vtt' : 'srt'};
+  }
+  function plain(value) {
+    const entities = {amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' '};
+    return value.replace(/<[^>]*>/g, '').replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi,
+      (whole, key) => {
+        if (key[0] !== '#') return entities[key.toLowerCase()];
+        const n = key[1].toLowerCase() === 'x' ? parseInt(key.slice(2), 16) : +key.slice(1);
+        return n > 0 && n <= 0x10ffff && !(n >= 0xd800 && n <= 0xdfff) ? String.fromCodePoint(n) : whole;
+      });
+  }
+  function wrap(value, width) {
+    if (!width) return value;
+    const lines = [], words = value.replace(/\s+/g, ' ').trim().split(' ');
+    let line = '';
+    for (const word of words) {
+      if (line && [...line + ' ' + word].length > width) { lines.push(line); line = word; }
+      else line += (line ? ' ' : '') + word;
+    }
+    if (line) lines.push(line);
+    return lines.join('\n');
+  }
+  function transform(cues, options = {}) {
+    const offset = options.offset ?? 0, width = options.width ?? 0;
+    if (!Number.isFinite(offset) || Math.abs(offset) > 86400) throw new Error('Offset must be within 24 hours.');
+    if (!Number.isInteger(width) || (width !== 0 && (width < 10 || width > 100))) throw new Error('Line width must be 10–100, or 0 to preserve lines.');
+    const shift = Math.round(offset * 1000);
+    return cues.map((cue, index) => {
+      const start = cue.start + shift, end = cue.end + shift;
+      if (start < 0) throw new Error('Offset moves cue ' + (index + 1) + ' before 00:00. Reduce the negative offset.');
+      let text = options.strip ? plain(cue.text) : cue.text;
+      if (options.tidy) text = text.split('\n').map(line => line.replace(/[ \t]+/g, ' ').trim()).join('\n');
+      text = wrap(text, width);
+      return {start, end, text};
+    });
+  }
+  function csvCell(value) {
+    let text = String(value);
+    if (/^[=+\-@\t\r]/.test(text)) text = "'" + text;
+    return '"' + text.replace(/"/g, '""') + '"';
+  }
+  function render(cues, format) {
+    if (format === 'srt' || format === 'vtt') {
+      return (format === 'vtt' ? 'WEBVTT\n\n' : '') + cues.map((c, i) =>
+        (format === 'srt' ? (i + 1) + '\n' : '') + clock(c.start, format === 'vtt') + ' --> ' +
+        clock(c.end, format === 'vtt') + '\n' + c.text).join('\n\n') + '\n';
+    }
+    if (format === 'txt') return cues.map(c => plain(c.text).replace(/\s+/g, ' ').trim()).join('\n') + '\n';
+    if (format === 'timed') return cues.map(c => '[' + clock(c.start, true).slice(0, -4) + '] ' + plain(c.text).replace(/\s+/g, ' ').trim()).join('\n') + '\n';
+    if (format === 'csv') return '\uFEFFcue,start,end,text\r\n' + cues.map((c, i) =>
+      [i + 1, clock(c.start, true), clock(c.end, true), plain(c.text)].map(csvCell).join(',')).join('\r\n') + '\r\n';
+    throw new Error('Unknown output format.');
+  }
+  function inspect(cues) {
+    const issues = [];
+    for (let i = 0; i < cues.length; i++) {
+      const c = cues[i], text = plain(c.text), chars = [...text.replace(/\s/g, '')].length;
+      if (i && c.start < cues[i - 1].start) issues.push('Cue ' + (i + 1) + ': starts out of sequence.');
+      if (i && c.start < cues[i - 1].end) issues.push('Cue ' + (i + 1) + ': overlaps the previous cue.');
+      if (chars / ((c.end - c.start) / 1000) > 20) issues.push('Cue ' + (i + 1) + ': more than 20 characters per second.');
+      if (text.split('\n').length > 2) issues.push('Cue ' + (i + 1) + ': more than two lines.');
+      if (text.split('\n').some(line => [...line].length > 42)) issues.push('Cue ' + (i + 1) + ': a line exceeds 42 characters.');
+    }
+    return issues;
+  }
+  function safeName(value) { return value.replace(/\.[^.]*$/, '').replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 80) || 'captions'; }
+  // Standard ZIP store records, UTF-8 names; browsers need no zip library or network.
+  function zip(entries) {
+    const encoder = new TextEncoder(), chunks = [], central = [], names = new Set();
+    let offset = 0, centralSize = 0;
+    const record = size => { const bytes = new Uint8Array(size); return {bytes, view: new DataView(bytes.buffer)}; };
+    const crc = bytes => { let n = -1; for (const byte of bytes) {n ^= byte; for (let k = 0; k < 8; k++) n = (n >>> 1) ^ (0xedb88320 & -(n & 1));} return (n ^ -1) >>> 0; };
+    if (entries.length > 65535) throw new Error('Too many ZIP entries.');
+    for (const entry of entries) {
+      if (names.has(entry.name) || /(^\/|\\|(?:^|\/)\.\.(?:\/|$))/.test(entry.name)) throw new Error('Unsafe or duplicate archive filename.');
+      names.add(entry.name);
+      const name = encoder.encode(entry.name), data = encoder.encode(entry.text), checksum = crc(data);
+      if (name.length > 65535 || offset + data.length > 0xffffffff) throw new Error('Archive too large.');
+      const local = record(30 + name.length), l = local.view;
+      l.setUint32(0, 0x04034b50, true); l.setUint16(4, 20, true); l.setUint16(6, 0x0800, true);
+      l.setUint16(12, 0x0021, true); l.setUint32(14, checksum, true); l.setUint32(18, data.length, true);
+      l.setUint32(22, data.length, true); l.setUint16(26, name.length, true); local.bytes.set(name, 30);
+      chunks.push(local.bytes, data);
+      const header = record(46 + name.length), v = header.view;
+      v.setUint32(0, 0x02014b50, true); v.setUint16(4, 20, true); v.setUint16(6, 20, true);
+      v.setUint16(8, 0x0800, true); v.setUint16(14, 0x0021, true); v.setUint32(16, checksum, true);
+      v.setUint32(20, data.length, true); v.setUint32(24, data.length, true); v.setUint16(28, name.length, true);
+      v.setUint32(42, offset, true); header.bytes.set(name, 46); central.push(header.bytes);
+      offset += local.bytes.length + data.length; centralSize += header.bytes.length;
+    }
+    const end = record(22), e = end.view;
+    e.setUint32(0, 0x06054b50, true); e.setUint16(8, entries.length, true); e.setUint16(10, entries.length, true);
+    e.setUint32(12, centralSize, true); e.setUint32(16, offset, true);
+    const result = new Uint8Array(offset + centralSize + 22);
+    let pos = 0; for (const chunk of [...chunks, ...central, end.bytes]) {result.set(chunk, pos); pos += chunk.length;}
+    return result;
+  }
+  const api = {parse, timestamp, clock, transform, render, inspect, plain, wrap, zip, safeName, MAX_BYTES};
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.CaptionKit = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+</script><script>'use strict';
+(() => {
+  const $ = id => document.getElementById(id), C = CaptionKit;
+  const sample = '1\n00:00:00,500 --> 00:00:03,500\nWelcome to your next creative project.\n\n2\n00:00:04,000 --> 00:00:07,000\n<i>Good captions make every word easier to follow.</i>\n\n3\n00:00:07,500 --> 00:00:11,500\nKeep the story moving, one clear line at a time.\n';
+  let files = [], current = [], currentText = '', importVersion = 0;
+  function status(message, error = false) { $('status').textContent = message; $('status').className = error ? 'status error' : 'status'; }
+  function save(data, name, type) {
+    const url = URL.createObjectURL(new Blob([data], {type})), link = document.createElement('a');
+    link.href = url; link.download = name; link.click(); setTimeout(() => URL.revokeObjectURL(url), 30000);
+  }
+  function clearOutput() { current = []; currentText = ''; $('output').value = ''; $('download').disabled = true; $('batch').disabled = true; $('stats').textContent = 'Ready when you are'; $('issues').replaceChildren(); }
+  function invalidate() { clearOutput(); status('Settings changed. Run cleanup to refresh the output.'); }
+  function options() { return {offset: Number($('offset').value), width: Number($('width').value), strip: $('strip').checked, tidy: $('tidy').checked}; }
+  function convert(text) {
+    const parsed = C.parse(text), cues = C.transform(parsed.cues, options());
+    return {cues, text: C.render(cues, $('format').value), warnings: parsed.warnings.concat(C.inspect(cues))};
+  }
+  function extension() { return $('format').value === 'timed' ? 'txt' : $('format').value; }
+  function process() {
+    clearOutput();
+    try {
+      const result = convert($('input').value); current = result.cues; currentText = result.text;
+      $('output').value = result.text; $('download').disabled = false; $('batch').disabled = files.length < 2;
+      const words = current.reduce((sum, c) => sum + C.plain(c.text).trim().split(/\s+/).length, 0);
+      $('stats').textContent = current.length + ' cues · ' + words + ' words · ends at ' + C.clock(Math.max(...current.map(c => c.end)), true);
+      for (const issue of result.warnings.slice(0, 100)) { const li = document.createElement('li'); li.textContent = issue; $('issues').append(li); }
+      if (result.warnings.length > 100) {const li = document.createElement('li'); li.textContent = (result.warnings.length - 100) + ' more checks; use the CSV export to review all cues.'; $('issues').append(li);}
+      status(result.warnings.length ? 'Converted. Review the checks below before publishing.' : 'Converted. Your download is ready.');
+    } catch (error) { status(error.message, true); }
+  }
+  $('sample').addEventListener('click', () => {importVersion++; files = []; $('files').value = ''; $('input').value = sample; $('source').textContent = 'Sample captions'; process();});
+  $('input').addEventListener('input', () => {importVersion++; files = []; $('files').value = ''; $('source').textContent = 'Pasted captions'; invalidate();});
+  for (const id of ['offset', 'width', 'strip', 'tidy', 'format']) $(id).addEventListener('change', invalidate);
+  $('files').addEventListener('change', async () => {
+    const version = ++importVersion, selected = [...$('files').files]; files = []; clearOutput();
+    try {
+      if (!selected.length) { $('source').textContent = 'Pasted captions'; return; }
+      if (selected.length > 100) throw new Error('Choose at most 100 files at a time.');
+      if (selected.some(file => !/\.(srt|vtt)$/i.test(file.name))) throw new Error('Choose SRT or VTT files only.');
+      if (selected.some(file => file.size > C.MAX_BYTES)) throw new Error('Each file must be 2 MB or smaller.');
+      if (selected.reduce((sum, file) => sum + file.size, 0) > 20 * 1024 * 1024) throw new Error('Choose at most 20 MB in one batch.');
+      status('Reading files on your device…');
+      const loaded = [];
+      for (const file of selected) loaded.push({name: file.name, text: await file.text()});
+      if (version !== importVersion) return;
+      files = loaded; $('input').value = files[0].text;
+      $('source').textContent = files.length === 1 ? files[0].name : files.length + ' files selected · previewing ' + files[0].name;
+      process();
+    } catch (error) { if (version === importVersion) { files = []; status(error.message, true); } }
+  });
+  $('run').addEventListener('click', process);
+  $('download').addEventListener('click', () => {if (current.length) save(currentText, C.safeName(files[0]?.name || 'captions') + '-clean.' + extension(), 'text/plain;charset=utf-8');});
+  $('batch').addEventListener('click', () => {
+    try {
+      if (files.length < 2) return;
+      const entries = [], errors = [], names = new Set();
+      for (const file of files) {
+        try {
+          const result = convert(file.text); const stem = C.safeName(file.name); let name = stem + '-clean.' + extension(), n = 2;
+          while (names.has(name)) name = stem + '-clean-' + n++ + '.' + extension();
+          names.add(name); entries.push({name, text: result.text});
+          if (result.warnings.length) errors.push(file.name + ':\n' + result.warnings.join('\n') + '\n');
+        } catch (error) { throw new Error(file.name + ': ' + error.message + ' No batch was exported.'); }
+      }
+      entries.push({name: 'REVIEW.txt', text: errors.length ? errors.join('\n') : 'All files converted. Review captions against the original media before publishing.\n'});
+      save(C.zip(entries), 'clean-captions.zip', 'application/zip'); status('Batch exported. The ZIP includes a review report.');
+    } catch (error) { status(error.message, true); }
+  });
+  $('reset').addEventListener('click', () => { importVersion++; files = []; $('files').value = ''; $('input').value = ''; $('source').textContent = 'No file selected'; clearOutput(); status('Files cleared from this page.'); });
+  $('input').value = sample; process();
+})();
+</script></body></html>

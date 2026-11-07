@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-13",
+  "trigger_at_utc": "2026-10-13T07:03:15.168Z",
+  "started_at_utc": "2026-10-13T07:06:31.686Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "status": "for_sale_content_verified",
+      "base_price_usd": 9,
+      "localized_listing_price_zar": 148.49,
+      "qa_visit": true
+    },
+    {
+      "channel": "Gumroad checkout",
+      "status": "opens_with_product_payment_form_and_pay_control",
+      "localized_checkout_total_zar": 150,
+      "creator_test_notice_visible": true,
+      "order_placed": false
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "native_post_content_product_reference_and_aggregate_engagement_verified",
+      "source": "Authenticated post-specific analytics",
+      "inbound_questions": "none_comment_count_zero",
+      "public_visibility_reverified": false,
+      "metrics": {
+        "impressions": 74,
+        "members_reached": 55,
+        "link_engagements": 1,
+        "comments": 0,
+        "reactions": 0,
+        "reposts": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null
+      }
+    },
+    {
+      "channel": "Facebook public Page timing tip",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "status": "public_permanent_post_complete_copy_and_existing_page_verified",
+      "comments": 0,
+      "buyer_visits": null,
+      "metrics": {
+        "views": 5,
+        "viewers": 1,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Includes known publication QA click; buyer reach and demand remain unknown."
+      }
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "status": "public_post_and_existing_page_verified",
+      "comments": 0,
+      "metrics": {
+        "views": 24,
+        "viewers": 6,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null,
+        "note": "Includes known launch QA click; raw views can include owner/QA activity."
+      }
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "status": "published_copy_product_link_and_artwork_verified",
+      "metrics": {
+        "views": 10,
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Raw views may include QA; new-account discoverability remains unverified."
+      }
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "moderator_review": {
+        "status": "sent_message_verified_no_response",
+        "conversation_url": "https://www.reddit.com/room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com",
+        "own_request_visible": true,
+        "moderator_response_visible": false,
+        "replies": 0,
+        "access": "Native Chat on existing launch-post page; existing review subject visible"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "channel": "LinkedIn public transcript workflow post",
+      "platform": "linkedin",
+      "status": "published_and_verified",
+      "published_date": "2026-10-13",
+      "publication_verified_at_utc": "2026-10-13T07:15:33.419Z",
+      "rolling_window_anchor_utc": "2026-10-13T07:15:33.419Z",
+      "rolling_window_anchor_note": "Verification time used conservatively; native post timestamp displayed now.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515671218566496258/",
+      "audience": "Anyone",
+      "campaign": "transcripts20261013",
+      "title": "Course creators: captions as a starting point for lesson notes",
+      "copy": "Course creators: an existing subtitle file can also be a useful starting point for lesson notes.\n\nChoose the export for the job:\n\n• Plain transcript: text to edit into reading notes.\n• Timed transcript: text with timestamps so you can find a passage in the lesson.\n• CSV cue sheet: a table for reviewing individual cues and timings.\n\nKeep the original SRT/VTT for video playback. Review the words against the lesson and edit the transcript before sharing it; converting a file does not check accuracy or turn it into finished notes.\n\nI’m the seller of Caption Cleanup Kit. It exports these formats from existing UTF-8 SRT/VTT files in an offline desktop-browser workspace. US$9 once, including a quick-start guide and samples. No subtitle uploads or subscription. It does not transcribe audio or translate speech.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=transcripts20261013\n\n#CourseCreation #Subtitles",
+      "copy_record": "transcript-post-2026-10-13.json",
+      "proof": "checks/2026-10-13/linkedin-transcript-post-live.png",
+      "paid_promotion": false,
+      "spend_zar": 0,
+      "product_link": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=transcripts20261013",
+      "product_destination_verified": true,
+      "qa_outbound_visits": 0,
+      "last_checked_date": "2026-10-13",
+      "last_check": {
+        "status": "post_successful_notice_permanent_page_complete_copy_and_product_destination_verified",
+        "inbound_questions": "none_visible",
+        "buyer_visits": null
+      },
+      "rules_check": {
+        "date": "2026-10-13",
+        "url": "https://www.linkedin.com/legal/professional-community-policies",
+        "facts": "Current policy requires accurate, professional, original and relevant content, visible personal-benefit disclosure, and prohibits irrelevant/repetitive promotion, promotional invitations and artificial engagement. Copy clearly discloses seller affiliation and provides a relevant workflow lesson."
+      },
+      "rationale": "A new practical lesson-notes use case for course creators and educators, with clear distinctions between transcript and subtitle outputs and a review step; distinct from the launch feature list and Facebook timing tip."
+    }
+  ],
+  "new_posts": 1,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "sales": {
+    "product_id": "tzihvm",
+    "status": "Published",
+    "base_price_usd": 9,
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "free_creator_tests_excluded": 1,
+    "source": "Authenticated Products row; no buyer records accessed"
+  },
+  "traffic": {
+    "raw_gumroad_views": 14,
+    "date_range": "2026-09-13 through 2026-10-13",
+    "referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 4,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      },
+      {
+        "source": "m.facebook.com",
+        "views": 8,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "campaign_attributed_sales": null,
+    "note": "Observed before today’s listing QA; previous QA, owner activity and link previews cannot be separated from raw counts."
+  },
+  "qa_cart_cleared": true,
+  "notification_trigger": "completed_new_free_linkedin_placement",
+  "blocked_channels": [
+    {
+      "channel": "Product Hunt",
+      "status": "held_after_repeated_signup_freezes",
+      "retry": false,
+      "owner_reminder_repeated": false
+    },
+    {
+      "channel": "AlternativeTo",
+      "status": "existing_owner_sign_in_handoff_pending",
+      "retry": false,
+      "owner_reminder_repeated": false
+    }
+  ],
+  "delivery": {
+    "status": "prior_exact_download_verified_no_new_defect_observed",
+    "last_test_date": "2026-09-30",
+    "test_repeated": false
+  },
+  "demand_review": {
+    "launch_date": "2026-09-30",
+    "elapsed_calendar_days": 13,
+    "days_threshold": 30,
+    "relevant_buyer_visits": null,
+    "visit_threshold": 100,
+    "status": "threshold_not_established_no_price_or_license_changes"
+  },
+  "qa": {
+    "direct_listing_visits": 1,
+    "outbound_promotional_link_visits": 0,
+    "checkout_opened_without_order": true,
+    "cart_item_removed": true,
+    "traffic_observed_before_listing_qa": true,
+    "metrics_not_adjusted_by_guessing": true
+  },
+  "posting_decision": {
+    "new_posts": 1,
+    "linkedin": "One original seller-disclosed lesson-notes workflow post, distinct from launch copy. Rolling limit verified from ledger; current professional-content rules checked.",
+    "facebook": "8 October original tip still inside its seven-day window.",
+    "x_gumroad": "No duplicate launch or quota-filling publication.",
+    "reddit": "Hold all promotion while filtered launch awaits single moderator review.",
+    "directories": "Existing owner sign-in handoff and signup-freeze hold unchanged; no new owner readiness or duplicate reminder."
+  },
+  "browser_recovery": {
+    "status": "stale_accessibility_captures_handled_with_documented_dom_fallback",
+    "resolved": true,
+    "owner_action_required": false
+  },
+  "completed_at_utc": "2026-10-13T07:20:58.772Z",
+  "outcome": "completed_new_free_linkedin_placement_no_sale_or_failure",
+  "decision": "NOTIFY",
+  "tab_cleanup": "Temporary QA tab closed"
+}

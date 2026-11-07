@@ -1,0 +1,14 @@
+Already have captions, but still need a different subtitle format, a transcript or a timing adjustment?
+
+I've launched Caption Cleanup Kit for that final step of a video workflow. Open a self-contained HTML file in a current desktop browser and work offline with existing SRT or WebVTT subtitles.
+
+• Convert SRT ↔ VTT
+• Export plain or timed transcripts and CSV cue sheets
+• Tidy spaces, wrap lines and shift timings
+• Export batches of up to 100 files as a ZIP with a review report
+
+US$9 once. No installation, subscription or subtitle uploads. Includes a quick-start guide and samples. It edits existing captions; it does not transcribe audio or translate speech.
+
+https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=launch20260930
+
+#VideoEditing #Subtitles #ContentCreation

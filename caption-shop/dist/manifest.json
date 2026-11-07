@@ -1,0 +1,14 @@
+{
+  "product": "Caption Cleanup Kit",
+  "version": "1.0",
+  "built_date": "2026-09-30",
+  "archive": "Caption-Cleanup-Kit-v1.zip",
+  "bytes": 13534,
+  "sha256": "c3431fd6b1642cad28b825077fe48cd92d94f057104a67cd45c1f6308ed312c9",
+  "files": [
+    "Caption-Cleanup-Kit.html",
+    "Quick-Start.html",
+    "sample.srt",
+    "sample.vtt"
+  ]
+}

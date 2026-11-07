@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15223b">
+  <meta name="description" content="A local proof of concept for more complete motor insurance intake and transparent demo estimates.">
+  <title>Quote Lab · Motor insurance proof of concept</title>
+  <link rel="stylesheet" href="/static/insurance.css">
+  <script type="module" src="/static/insurance.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#intake">Skip to intake</a>
+  <div class="quote-shell">
+    <header class="quote-header">
+      <a class="quote-brand" href="/insurance"><span class="brand-mark" aria-hidden="true">↗</span><strong>Quote Lab<span>.</span></strong><small>by Launchpad</small></a>
+      <div class="header-actions"><span class="demo-label">LOCAL PROOF OF CONCEPT</span><a class="dashboard-link" href="/">Business dashboard ↗</a></div>
+    </header>
+
+    <main>
+      <section class="quote-hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A BETTER CONVERSATION BEFORE THE QUOTE</p>
+          <h1 id="hero-title">See what a basic<br>estimate <em>leaves out.</em></h1>
+          <p>Capture the car, the extras, and the way it is used. See the assumptions behind a demo estimate, and what still needs an insurer’s review.</p>
+          <div class="hero-facts"><span>2026 Polo GTI</span><span>Approx. R620,000</span><span>White · Sunroof included</span></div>
+        </div>
+        <div class="hero-art"><img src="/static/insurance-car.svg" alt="Original illustration of a generic white hatchback" width="600" height="310"><span class="art-caption">THE DETAILS MAKE THE DIFFERENCE</span></div>
+      </section>
+
+      <div class="prototype-note"><strong>Demo pricing, real intake questions.</strong><span id="pricing-notice">The starting reference and all pricing rules are illustrative. This is not an insurer quote.</span><button class="text-button" id="show-rules" type="button">View the demo rules ↗</button></div>
+      <div class="preset-row" aria-label="Example scenarios">
+        <div><span class="eyebrow">TRY THE DIFFERENCE</span><p>Start with a scenario, then change the details.</p></div>
+        <div class="preset-buttons"><button class="preset-button" data-preset="basic" type="button">01 <span>Basic intake</span></button><button class="preset-button active" data-preset="known" type="button" aria-pressed="true">02 <span>Your Polo GTI</span></button><button class="preset-button" data-preset="whatif" type="button">03 <span>What-if scenario</span></button></div>
+      </div>
+      <p id="scenario-note" class="scenario-note" role="status">Your confirmed vehicle details are filled in. Driver, usage and cover details are unanswered.</p>
+
+      <div class="workspace-grid">
+        <section class="intake-panel" id="intake" aria-labelledby="intake-title">
+          <div class="panel-heading"><div><p class="eyebrow">THE COMPLETE PICTURE</p><h2 id="intake-title">Tell us about the car.</h2></div><span id="step-counter">Step 1 of 4</span></div>
+          <nav class="step-navigation" aria-label="Intake steps">
+            <button class="step-button active" data-step="vehicle" type="button" aria-current="step"><span>1</span>Vehicle</button>
+            <button class="step-button" data-step="extras" type="button"><span>2</span>Extras</button>
+            <button class="step-button" data-step="driver" type="button"><span>3</span>Driver & use</button>
+            <button class="step-button" data-step="cover" type="button"><span>4</span>Cover</button>
+          </nav>
+          <form id="quote-form" novalidate>
+            <section class="step-section" data-section="vehicle" aria-labelledby="vehicle-title">
+              <div class="section-heading"><div><h3 id="vehicle-title">More than a make and model.</h3><p>Use the exact specification and a value you can verify.</p></div><span class="section-index">01 / VEHICLE</span></div>
+              <div class="field-grid">
+                <label class="field">Make<input name="make" maxlength="120" required></label>
+                <label class="field">Model<input name="model" maxlength="120" required></label>
+                <label class="field">Variant / trim<input name="variant" maxlength="120" placeholder="For example: GTI"></label>
+                <label class="field">Year<input name="year" type="number" min="1900" max="2027" step="1" required></label>
+                <label class="field">Vehicle value (R)<input name="vehicleValue" type="number" min="1" max="10000000" step="1" required><small>Include items already reflected in this value.</small></label>
+                <label class="field">Valuation basis<select name="valuationBasis"><option value="unknown">Not supplied / unsure</option><option value="retail">Retail value</option><option value="market">Market value</option><option value="agreed">Agreed value</option></select></label>
+                <label class="field">Colour<input name="colour" maxlength="60" placeholder="For example: white"></label>
+                <label class="field">Paint finish<select name="paintFinish"><option value="unknown">Not supplied / unsure</option><option value="standard">Standard paint</option><option value="metallic">Metallic / pearlescent</option><option value="custom">Custom paint / wrap</option></select></label>
+              </div>
+              <div class="field-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>Colour is recorded, not guessed into a surcharge.</strong> This demo has no standard-colour pricing rule. Custom paint or a wrap is declared separately; actual insurer rules still need confirmation.</p></div>
+            </section>
+
+            <section class="step-section" data-section="extras" aria-labelledby="extras-title" hidden>
+              <div class="section-heading"><div><h3 id="extras-title">What came with the car?</h3><p>Declare options and accessories, then check whether their value is already included.</p></div><span class="section-index">02 / EXTRAS</span></div>
+              <div class="included-note"><span aria-hidden="true">✓</span><p>Your factory sunroof is already included in the roughly R620,000 value. Its separate cost can stay blank; the demo adds <strong>R0</strong> for it.</p></div>
+              <div id="extras-list" class="extras-list"></div>
+              <button class="button button-secondary add-extra" id="add-extra" type="button">+ Add an extra or option</button>
+              <div class="field-grid extras-questions">
+                <label class="field wide-field">Changes from the original specification<select name="modifications"><option value="unknown">Not supplied / unsure</option><option value="none">No modifications</option><option value="cosmetic">Cosmetic changes</option><option value="performance">Performance / engine / handling changes</option></select><small>Performance changes need review even if their cost is known.</small></label>
+                <label class="field wide-field">Is the extras list complete?<select name="extrasConfirmed"><option value="unknown">Not confirmed yet</option><option value="true">Yes, all non-standard extras are listed / none fitted</option><option value="false">No, there may be other extras</option></select></label>
+              </div>
+              <div class="field-note"><span class="note-icon" aria-hidden="true">i</span><p>Keep the invoice or build specification for the broker’s review. “Factory fitted” and “already included in the value” are separate questions.</p></div>
+            </section>
+
+            <section class="step-section" data-section="driver" aria-labelledby="driver-title" hidden>
+              <div class="section-heading"><div><h3 id="driver-title">Who drives it, and how?</h3><p>Unknown answers stay unknown. No ID number or contact details are needed for this demo.</p></div><span class="section-index">03 / DRIVER & USE</span></div>
+              <div class="field-grid">
+                <label class="field">Regular driver’s age<input name="driverAge" type="number" min="18" max="100" step="1" placeholder="Not supplied"></label>
+                <label class="field">Years holding a licence<input name="licenceYears" type="number" min="0" max="80" step="1" placeholder="Not supplied"></label>
+                <label class="field">Claims in the last 3 years<input name="claimsLast3Years" type="number" min="0" max="20" step="1" placeholder="Not supplied"></label>
+                <label class="field">Annual distance (km)<input name="annualKm" type="number" min="0" max="200000" step="1" placeholder="Not supplied"></label>
+                <label class="field">Main use<select name="usage"><option value="unknown">Not supplied / unsure</option><option value="private">Private / commuting</option><option value="business">Business use</option><option value="delivery">Delivery / commercial use</option></select></label>
+                <label class="field">Overnight parking<select name="overnightParking"><option value="unknown">Not supplied / unsure</option><option value="garage">Locked garage</option><option value="secured">Secured premises</option><option value="driveway">Driveway</option><option value="street">Street parking</option></select></label>
+                <label class="field">Tracking device<select name="tracker"><option value="unknown">Not supplied / unsure</option><option value="active">Active tracking device</option><option value="none">No active tracker</option></select></label>
+                <label class="field">General location<input name="locationDescription" maxlength="160" placeholder="City / suburb only"><small>Leave out your street address. Location is captured for review, not priced by this demo.</small></label>
+              </div>
+            </section>
+
+            <section class="step-section" data-section="cover" aria-labelledby="cover-title" hidden>
+              <div class="section-heading"><div><h3 id="cover-title">Compare the same cover.</h3><p>A premium comparison needs the same benefits, excess and terms.</p></div><span class="section-index">04 / COVER</span></div>
+              <div class="field-grid">
+                <label class="field">Cover type<select name="coverType"><option value="unknown">Not supplied / unsure</option><option value="comprehensive">Comprehensive</option><option value="third_party_fire_theft">Third party, fire & theft</option><option value="third_party">Third party</option></select></label>
+                <label class="field">Basic excess (R)<input name="excess" type="number" min="0" max="100000" step="1" placeholder="Not supplied"><small>Insurer-specific additional excesses remain a review item.</small></label>
+                <label class="field">Finance status<select name="finance"><option value="unknown">Not supplied / unsure</option><option value="financed">Financed</option><option value="owned">Owned outright</option></select></label>
+                <label class="field">Credit shortfall option<select name="creditShortfall"><option value="unknown">Not supplied / unsure</option><option value="no">Not requested</option><option value="yes">Requested</option></select></label>
+                <label class="field">Car-hire option<select name="carHire"><option value="unknown">Not supplied / unsure</option><option value="no">Not requested</option><option value="yes">Requested</option></select></label>
+              </div>
+              <div class="field-note"><span class="note-icon" aria-hidden="true">i</span><p>Policy limits, exclusions, insurer-specific excesses and acceptance need a real provider check. Complete answers do not mean approved cover.</p></div>
+            </section>
+
+            <p class="error-message" id="form-error" role="alert" hidden></p>
+            <div class="form-actions"><button class="button button-secondary" id="previous-step" type="button" hidden>← Previous</button><span id="form-status" role="status">Changes update the demo calculation.</span><button class="button button-secondary" id="next-step" type="button">Next step →</button><button class="button button-primary" id="calculate-button" type="submit">Calculate demo estimate ↗</button></div>
+          </form>
+        </section>
+
+        <aside class="result-panel" aria-labelledby="result-title">
+          <div class="result-heading"><div><p class="eyebrow">THE REASON BEHIND THE NUMBER</p><h2 id="result-title">A clearer picture.</h2></div><span class="status-chip" id="result-status">Loading</span></div>
+          <div id="result-empty" class="result-empty"><span aria-hidden="true">↗</span><h3>Gathering your demo estimate.</h3><p>Your inputs stay on this local computer.</p></div>
+          <div id="report-content" hidden>
+            <div class="comparison-grid">
+              <div class="comparison-card"><span>Basic reference</span><strong class="estimate-number" id="benchmark-amount">—</strong><small>Value-linked demo baseline / month</small></div>
+              <div class="comparison-card detailed-card"><span id="detail-title">Known-input demo subtotal</span><strong class="estimate-number" id="detailed-amount">—</strong><small>Using the supplied details / month</small></div>
+            </div>
+            <div class="difference-line" id="difference-line"></div>
+            <div class="range-line"><span>Demonstration range</span><strong id="estimate-range">—</strong><p id="range-explanation"></p></div>
+            <div class="completeness-heading"><span>Input completeness</span><strong id="completeness-value">—</strong></div>
+            <div class="completeness-track" role="progressbar" aria-label="Input completeness" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="completeness-bar"><span></span></div>
+            <p class="readiness-note" id="completeness-note"></p>
+            <div class="value-summary"><div><span>Declared vehicle</span><strong id="vehicle-value-summary">—</strong></div><div><span>Extras added once</span><strong id="extras-value-summary">—</strong></div><div><span>Demo insured value</span><strong id="insured-value-summary">—</strong></div></div>
+            <div id="extras-summary" class="extras-summary"></div>
+            <details class="report-section"><summary>See every calculation step <span aria-hidden="true">+</span></summary><div class="breakdown-list" id="breakdown-list"></div></details>
+            <details class="report-section" open><summary>What still needs attention <span id="review-count" class="review-count">0</span></summary><ul class="review-list" id="review-list"></ul></details>
+            <details class="report-section"><summary>Unanswered details <span id="missing-count" class="review-count">0</span></summary><ul class="missing-list" id="missing-list"></ul></details>
+            <details class="report-section"><summary>Assumptions behind this result <span aria-hidden="true">+</span></summary><ul class="assumptions-list" id="assumptions-list"></ul></details>
+            <p class="model-note" id="model-note"></p>
+            <div class="report-actions"><button class="button button-secondary" id="download-report" type="button" disabled>Download assessment ↓</button><button class="button button-secondary" id="print-report" type="button" disabled>Print assessment</button></div>
+          </div>
+        </aside>
+      </div>
+      <section class="demo-explanation"><div><p class="eyebrow">WHAT THIS PROVES</p><h2>Better input. Visible assumptions.</h2></div><p>The prototype makes missing details, duplicated values and pricing assumptions visible. Real premium accuracy still needs insurer-approved rates, verified vehicle values and comparison against final quotes.</p></section>
+    </main>
+    <footer class="quote-footer"><span>Launchpad · Local insurance proof of concept</span><span>Demo rules · No insurer connection · No saved personal profile</span></footer>
+  </div>
+  <dialog class="rules-dialog" id="rules-dialog" aria-labelledby="rules-title"><div class="rules-heading"><div><p class="eyebrow">OPEN ASSUMPTIONS</p><h2 id="rules-title">The demo pricing rules.</h2></div><button class="close-dialog" id="close-rules" type="button" aria-label="Close demo rules">×</button></div><p class="rules-notice">These numbers were chosen for this demonstration. They are not insurer tariffs or calibrated predictions.</p><div id="rules-content"></div></dialog>
+  <noscript><p class="error-message">Enable JavaScript to use this local proof of concept.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-09",
+  "trigger_at_utc": "2026-10-09T07:01:12.212Z",
+  "started_at_utc": "2026-10-09T07:02:16.973Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "status": "for_sale_content_verified",
+      "base_price_usd": 9,
+      "localized_listing_price_zar": 148.68,
+      "qa_visit": true
+    },
+    {
+      "channel": "Gumroad checkout",
+      "status": "opens_with_product_payment_form_and_pay_control",
+      "localized_checkout_total_zar": 150,
+      "creator_test_notice_visible": true,
+      "order_placed": false
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "current_check_unavailable_browser_timeout",
+      "inbound_questions": "unknown",
+      "metrics": null,
+      "last_verified_date": "2026-10-08"
+    },
+    {
+      "channel": "Facebook public Page timing tip",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06DNwM1nBPHYwokGvxqtphUdZuA3BmBEmRgHLYXu7YkcYgN2Fsz1XCKLmgbQfVDqXl&id=61594786357864",
+      "status": "public_permanent_post_complete_copy_and_existing_page_verified",
+      "comments": 0,
+      "buyer_visits": null,
+      "metrics": {
+        "views": 1,
+        "viewers": 1,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Includes the known publication QA outbound click. Raw metrics do not establish buyer reach or demand."
+      }
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "status": "public_post_and_existing_page_verified",
+      "comments": 0,
+      "metrics": {
+        "views": 17,
+        "viewers": 5,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null,
+        "note": "Raw counts can contain owner/QA activity, including the known launch QA click."
+      }
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "status": "published_copy_product_link_and_artwork_verified",
+      "metrics": {
+        "views": 8,
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Raw views can include QA; new-account discoverability remains unverified."
+      }
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "moderator_review": {
+        "status": "sent_message_verified_no_response",
+        "conversation_url": "https://www.reddit.com/room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com",
+        "own_request_visible": true,
+        "moderator_response_visible": false,
+        "replies": 0,
+        "access": "Native Chat on existing launch-post page; existing review subject visible"
+      }
+    }
+  ],
+  "publications": [],
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "sales": {
+    "product_id": "tzihvm",
+    "status": "Published",
+    "base_price_usd": 9,
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "free_creator_tests_excluded": 1,
+    "source": "Authenticated Products row; no buyer records accessed"
+  },
+  "traffic": {
+    "raw_gumroad_views": 14,
+    "date_range": "2026-09-09 through 2026-10-09",
+    "referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 4,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      },
+      {
+        "source": "m.facebook.com",
+        "views": 8,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "campaign_attributed_sales": null,
+    "note": "Observed before today’s listing QA. Previous QA, owner activity and link previews cannot be separated from the aggregate; no buyer count inferred."
+  },
+  "qa_cart_cleared": true
+}

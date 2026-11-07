@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-07",
+  "execution": "owner_requested_manual_run",
+  "started_at_utc": "2026-10-07T07:26:36.473Z",
+  "spend_zar": 0,
+  "orders_placed": 0,
+  "new_posts": 0,
+  "buyer_page_visits": null,
+  "placements": [
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "published_content_and_product_link_verified",
+      "inbound_questions": "none_visible",
+      "metrics": {
+        "impressions": 68,
+        "members_reached": 53,
+        "link_engagements": 1,
+        "comments": 0,
+        "reactions": 0,
+        "reposts": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null
+      }
+    },
+    {
+      "channel": "Facebook public Page launch post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+      "status": "public_post_and_existing_page_verified",
+      "comments": 0,
+      "metrics": {
+        "views": 12,
+        "viewers": 4,
+        "link_clicks": 1,
+        "interactions": 0,
+        "comments": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null,
+        "note": "Raw views and the launch QA link click can include owner/QA activity."
+      }
+    },
+    {
+      "channel": "X public launch post",
+      "url": "https://x.com/Tiaane2jg/status/2105289200350449823",
+      "status": "published_copy_product_link_and_artwork_verified",
+      "metrics": {
+        "views": 6,
+        "replies": 0,
+        "reposts": 0,
+        "likes": 0,
+        "raw_platform_metrics": true,
+        "buyer_visits": null,
+        "note": "Raw views may include QA; new-account discoverability remains unverified."
+      }
+    },
+    {
+      "channel": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/",
+      "status": "removed_by_reddit_filters",
+      "comments": 0,
+      "moderator_review": {
+        "status": "sent_message_verified_no_response",
+        "conversation_url": "https://www.reddit.com/room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com",
+        "own_request_visible": true,
+        "moderator_response_visible": false,
+        "replies": 0,
+        "access": "Native Chat on existing launch-post page; existing review subject visible"
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "channel": "Product Hunt",
+      "status": "held_after_repeated_signup_freezes",
+      "retry_attempted": false,
+      "new_owner_reminder": false
+    },
+    {
+      "channel": "AlternativeTo",
+      "status": "existing_owner_sign_in_pending",
+      "account_creation_or_login_retried": false,
+      "new_owner_reminder": false,
+      "note": "No changed owner readiness or authenticated session reported; existing handoff preserved."
+    }
+  ],
+  "product": {
+    "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+    "product_id": "tzihvm",
+    "public_listing": "for_sale",
+    "public_currency": "ZAR detected",
+    "public_display_price_zar": 149.36,
+    "checkout": "loaded_product_and_payment_form_without_order",
+    "checkout_display_currency": "ZAR",
+    "checkout_display_price_zar": 151,
+    "checkout_proof": "marketing/checks/2026-10-07/checkout.png",
+    "base_price_usd": 9,
+    "seller_status": "Published"
+  },
+  "checkout_cart_cleaned": true,
+  "sales": {
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "observed_date": "2026-10-07",
+    "proof": "marketing/checks/2026-10-07/products.png"
+  },
+  "traffic": {
+    "raw_gumroad_views": 5,
+    "date_range": "2026-09-07 through 2026-10-07",
+    "raw_referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 3,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "note": "Raw views may include owner and QA activity; no guessed subtraction or verified buyer attribution.",
+    "proof": "marketing/checks/2026-10-07/analytics.png"
+  },
+  "delivery_test_repeated": false,
+  "completed_at_utc": "2026-10-07T07:32:12.930Z",
+  "outcome": "completed_no_new_sale_or_failure",
+  "action_needed_new": false,
+  "note": "Manual shop/campaign check requested by owner after app was closed. Free creator test remains excluded. Checkout loaded without an order and the QA cart item was removed. No new launch post, appeal, paid action or product edit. All existing promotions rechecked without visible product questions. Raw metrics may contain QA; buyer visits and campaign attribution remain unknown. Seven calendar days since launch; 30-day/100-relevant-buyer-visit assessment threshold not established. Rolling posting caps remain in force; no duplicate launch posts.",
+  "browser_recovery": "Checkout accessibility capture became stale after navigation; read-only DOM inspection verified full checkout and native Remove cleared the QA item."
+}

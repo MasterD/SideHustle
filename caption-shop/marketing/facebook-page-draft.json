@@ -1,0 +1,29 @@
+{
+  "name": "Caption Cleanup Kit",
+  "category": "Software",
+  "bio": "Offline toolkit for existing SRT/VTT subtitles: convert files, tidy text and export transcripts or batch ZIPs. US$9 once. Does not transcribe audio.",
+  "website": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+  "price_usd": 9,
+  "spend_zar": 0,
+  "status": "page_created_setup_complete",
+  "agreement_confirmation": "owner_approved_at_action_time",
+  "policy_url": "https://www.facebook.com/policies_center/pages_groups_events/",
+  "proof": "facebook-launch-live.png",
+  "next_action": "Create Page only after action-time owner agreement confirmation; add existing original product cover and thumbnail, website, and prepared launch post.",
+  "agreement_confirmation_date": "2026-09-30",
+  "agreement_confirmation_source": "Owner replied: Yes, create the free Page.",
+  "created_date": "2026-09-30",
+  "page_url": "https://www.facebook.com/profile.php?id=61594786357864",
+  "page_id": "61594786357864",
+  "launch_post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GwS9yqTHZ5j7F2nCdMJxow7VnpHTCo1gq7XHQyfFQbGCtMSPHTNWuDiyuDTBN3nAl&id=61594786357864",
+  "launch_post_status": "published_public_and_verified",
+  "action_button": {
+    "label": "Learn more",
+    "destination": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=facebook_page&utm_medium=social&utm_campaign=launch20260930",
+    "verification": "saved_in_native_setup"
+  },
+  "artwork": {
+    "profile": "../gumroad-thumbnail.png",
+    "cover": "../gumroad-cover.png"
+  }
+}

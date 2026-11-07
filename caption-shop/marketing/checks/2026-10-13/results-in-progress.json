@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-13",
+  "trigger_at_utc": "2026-10-13T07:03:15.168Z",
+  "started_at_utc": "2026-10-13T07:06:31.686Z",
+  "execution": "scheduled_heartbeat",
+  "checks": [
+    {
+      "channel": "Gumroad listing",
+      "url": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit",
+      "status": "for_sale_content_verified",
+      "base_price_usd": 9,
+      "localized_listing_price_zar": 148.49,
+      "qa_visit": true
+    },
+    {
+      "channel": "Gumroad checkout",
+      "status": "opens_with_product_payment_form_and_pay_control",
+      "localized_checkout_total_zar": 150,
+      "creator_test_notice_visible": true,
+      "order_placed": false
+    },
+    {
+      "channel": "Gumroad public guide",
+      "url": "https://tiaanbok0.gumroad.com/p/srt-or-vtt-a-practical-subtitle-export-checklist",
+      "status": "content_and_product_link_verified",
+      "comments": 0
+    },
+    {
+      "channel": "LinkedIn public post",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7510987453705465856/",
+      "status": "native_post_content_product_reference_and_aggregate_engagement_verified",
+      "source": "Authenticated post-specific analytics",
+      "inbound_questions": "none_comment_count_zero",
+      "public_visibility_reverified": false,
+      "metrics": {
+        "impressions": 74,
+        "members_reached": 55,
+        "link_engagements": 1,
+        "comments": 0,
+        "reactions": 0,
+        "reposts": 0,
+        "raw_platform_metrics": true,
+        "buyer_clicks": null
+      }
+    }
+  ],
+  "publications": [
+    {
+      "channel": "LinkedIn public transcript workflow post",
+      "platform": "linkedin",
+      "status": "published_and_verified",
+      "published_date": "2026-10-13",
+      "publication_verified_at_utc": "2026-10-13T07:15:33.419Z",
+      "rolling_window_anchor_utc": "2026-10-13T07:15:33.419Z",
+      "rolling_window_anchor_note": "Verification time used conservatively; native post timestamp displayed now.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515671218566496258/",
+      "audience": "Anyone",
+      "campaign": "transcripts20261013",
+      "title": "Course creators: captions as a starting point for lesson notes",
+      "copy": "Course creators: an existing subtitle file can also be a useful starting point for lesson notes.\n\nChoose the export for the job:\n\n• Plain transcript: text to edit into reading notes.\n• Timed transcript: text with timestamps so you can find a passage in the lesson.\n• CSV cue sheet: a table for reviewing individual cues and timings.\n\nKeep the original SRT/VTT for video playback. Review the words against the lesson and edit the transcript before sharing it; converting a file does not check accuracy or turn it into finished notes.\n\nI’m the seller of Caption Cleanup Kit. It exports these formats from existing UTF-8 SRT/VTT files in an offline desktop-browser workspace. US$9 once, including a quick-start guide and samples. No subtitle uploads or subscription. It does not transcribe audio or translate speech.\n\nhttps://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=transcripts20261013\n\n#CourseCreation #Subtitles",
+      "copy_record": "transcript-post-2026-10-13.json",
+      "proof": "checks/2026-10-13/linkedin-transcript-post-live.png",
+      "paid_promotion": false,
+      "spend_zar": 0,
+      "product_link": "https://tiaanbok0.gumroad.com/l/caption-cleanup-kit?utm_source=linkedin&utm_medium=social&utm_campaign=transcripts20261013",
+      "product_destination_verified": true,
+      "qa_outbound_visits": 0,
+      "last_checked_date": "2026-10-13",
+      "last_check": {
+        "status": "post_successful_notice_permanent_page_complete_copy_and_product_destination_verified",
+        "inbound_questions": "none_visible",
+        "buyer_visits": null
+      },
+      "rules_check": {
+        "date": "2026-10-13",
+        "url": "https://www.linkedin.com/legal/professional-community-policies",
+        "facts": "Current policy requires accurate, professional, original and relevant content, visible personal-benefit disclosure, and prohibits irrelevant/repetitive promotion, promotional invitations and artificial engagement. Copy clearly discloses seller affiliation and provides a relevant workflow lesson."
+      },
+      "rationale": "A new practical lesson-notes use case for course creators and educators, with clear distinctions between transcript and subtitle outputs and a review step; distinct from the launch feature list and Facebook timing tip."
+    }
+  ],
+  "new_posts": 1,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "sales": {
+    "product_id": "tzihvm",
+    "status": "Published",
+    "base_price_usd": 9,
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "free_creator_tests_excluded": 1,
+    "source": "Authenticated Products row; no buyer records accessed"
+  },
+  "traffic": {
+    "raw_gumroad_views": 14,
+    "date_range": "2026-09-13 through 2026-10-13",
+    "referrers": [
+      {
+        "source": "Direct, email, IM",
+        "views": 4,
+        "sales": 0
+      },
+      {
+        "source": "linkedin.com",
+        "views": 2,
+        "sales": 0
+      },
+      {
+        "source": "m.facebook.com",
+        "views": 8,
+        "sales": 0
+      }
+    ],
+    "buyer_page_visits": null,
+    "campaign_attributed_sales": null,
+    "note": "Observed before today’s listing QA; previous QA, owner activity and link previews cannot be separated from raw counts."
+  },
+  "qa_cart_cleared": true,
+  "notification_trigger": "completed_new_free_linkedin_placement"
+}

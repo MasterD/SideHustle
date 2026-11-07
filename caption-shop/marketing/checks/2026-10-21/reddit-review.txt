@@ -1,0 +1,48 @@
+- 'link "Review request: filtered offline subtitle toolkit launch"':
+  - /url: /room/!fgukXEOCSl6XzsCrmtrXeA%3Areddit.com
+  - img "SideProject channel icon"
+  - generic: "Review request: filtered offline subtitle toolkit launch"
+  - generic: MOD
+  - generic: Sep 30
+  - generic: "You: Hello moderators, My launch post about Caption Cleanup Kit was removed by Reddit's filters: https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/ It shares an offline SRT/VTT utility, states the US$9 one-time price and discloses that I'm the seller. I checked the community information and rules before posting. Could you review it and let me know whether it is suitable for r/SideProject? If it meets your rules, I'd appreciate approval. I will hold further promotion while this is reviewed. Thank you."
+- link "Skip to chat navigation bar":
+  - /url: "#main-right-content"
+- main:
+  - img "SideProject channel icon"
+  - 'generic "Current chat, Review request: filtered offline subtitle toolkit launch"': "Review request: filtered offline subtitle toolkit launch"
+  - generic "r/SideProject":
+    - link "r/SideProject":
+      - /url: https://www.reddit.com/r/SideProject/
+    - text: • Mod mail
+  - 'button "Review request: filtered offline subtitle toolkit launch settings"':
+  - button "Open chat in full screen":
+  - button "Minimize chat window":
+  - button "Close chat window":
+  - img "SideProject channel icon"
+  - generic: "Review request: filtered offline subtitle toolkit launch"
+  - generic: r/SideProject•Mod mail
+  - generic: "This is a private conversation between you and the moderators of r/SideProject. Note: There might be delays between responses."
+  - 'generic "Message date separator indicator: Sep 30"': Sep 30
+  - 'generic "Fast-Dot-2592 said 21 days ago, Hello moderators, My launch post about Caption Cleanup Kit was removed by Reddit''s filters: https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/ It shares an offline SRT/VTT utility, states the US$9 one-time price and discloses that I''m the seller. I checked the community information and rules before posting. Could you review it and let me know whether it is suitable for r/SideProject? If it meets your rules, I''d appreciate approval. I will hold further promotion while this is reviewed. Thank you. , 0 replies, 0 reactions"':
+    - link "View profile of user Fast-Dot-2592":
+      - /url: https://www.reddit.com/user/Fast-Dot-2592/
+      - img "User Avatar"
+    - link "View profile of user Fast-Dot-2592":
+      - /url: https://www.reddit.com/user/Fast-Dot-2592/
+      - generic: Fast-Dot-2592
+    - time: 11:15 AM
+    - paragraph: Hello moderators,
+    - paragraph:
+      - text: "My launch post about Caption Cleanup Kit was removed by Reddit's filters:"
+      - link "https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/":
+        - /url: https://www.reddit.com/r/SideProject/comments/1wu04gf/i_built_an_offline_srtvtt_toolkit_for_the_final/
+    - paragraph:
+      - text: It shares an offline SRT/VTT utility, states the US$9 one-time price and discloses that I'm the seller. I checked the community information and rules before posting. Could you review it and let me know whether it is suitable for
+      - link "r/SideProject":
+        - /url: https://www.reddit.com/r/SideProject/
+      - text: "? If it meets your rules, I'd appreciate approval."
+    - paragraph: I will hold further promotion while this is reviewed. Thank you.
+  - textbox "Write message":
+    - /placeholder: Message
+  - button "Send message" [disabled]:
+- separator:

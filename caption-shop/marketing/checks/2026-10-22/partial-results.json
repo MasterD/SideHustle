@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "trigger_at_utc": "2026-10-22T07:01:48.788Z",
+  "recorded_at_utc": "2026-10-23T07:01:20.274Z",
+  "execution": "scheduled_heartbeat",
+  "outcome": "interrupted_after_checkout_check",
+  "completed": false,
+  "source": "Prior conversation tool observations and the six saved Oct 22 screenshots; remaining channel checks were not completed.",
+  "observed": {
+    "product_id": "tzihvm",
+    "published": true,
+    "base_price_usd": 9,
+    "genuine_sales": 0,
+    "revenue_usd": 0,
+    "raw_gumroad_views": 16,
+    "buyer_page_visits": null,
+    "public_listing_for_sale": true,
+    "listing_display_zar": 147.97,
+    "checkout_opened": true,
+    "checkout_display_zar": 150,
+    "payment_submitted": false,
+    "qa_checkout_openings": 2,
+    "qa_cart_removed": true,
+    "recaptcha_notice": "Transient connection notice after removing the first cart item; absent after one fresh checkout opening with enabled Pay. Both QA cart items removed.",
+    "checkout_failure_reproduced": false
+  },
+  "remaining_checks": [
+    "Gumroad guide",
+    "LinkedIn posts",
+    "Facebook Page and posts",
+    "X launch",
+    "Reddit review"
+  ],
+  "new_posts": 0,
+  "orders_placed": 0,
+  "spend_zar": 0,
+  "evidence": [
+    "checkout-recaptcha-notice.png",
+    "checkout-recheck.png",
+    "checkout.png",
+    "gumroad-analytics.png",
+    "listing.png",
+    "products.png"
+  ]
+}
